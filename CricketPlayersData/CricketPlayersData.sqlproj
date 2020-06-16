@@ -58,6 +58,9 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="PlayersData.sql" />
+    <None Include="PlayersData.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="CricketPlayerData.PostDeployment.sql" />
   </ItemGroup>
 </Project>
