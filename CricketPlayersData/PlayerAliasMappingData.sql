@@ -15,6 +15,7 @@ SELECT 209457 AS CricInfoId, 1 AS IsActive, 'Kapugedera' AS CricsheetName UNION 
 SELECT 36185 AS CricInfoId, 1 AS IsActive, 'Astle' AS CricsheetName UNION ALL
 SELECT 681117 AS CricInfoId, 1 AS IsActive, 'Fahim Ashraf' AS CricsheetName UNION ALL
 SELECT 707183 AS CricInfoId, 1 AS IsActive, 'P Young-Husband' AS CricsheetName UNION ALL
+SELECT 348034 AS CricInfoId, 1 AS IsActive, 'G Dockrell' AS CricsheetName UNION ALL
 SELECT 49920 AS CricInfoId, 1 AS IsActive, 'MDK Perera' AS CricsheetName
 Go
 
