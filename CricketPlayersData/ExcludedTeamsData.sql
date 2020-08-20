@@ -9,25 +9,25 @@ CREATE TABLE #excludedTeams
 );
 
 INSERT INTO #excludedTeams	([TeamName], [IsActive])
-SELECT 'Nottinghamshire' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Worcestershire' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Glamorgan' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Somerset' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Durham' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Northamptonshire' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Essex' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Surrey' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Gloucestershire' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Kent' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Derbyshire' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Yorkshire' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Lancashire' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Birmingham Bears' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Leicestershire' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Hampshire' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Middlesex' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Sussex' AS [TeamName], 1 AS IsActive UNION ALL
-SELECT 'Warwickshire' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Nottinghamshire' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Worcestershire' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Glamorgan' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Somerset' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Durham' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Northamptonshire' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Essex' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Surrey' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Gloucestershire' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Kent' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Derbyshire' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Yorkshire' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Lancashire' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Birmingham Bears' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Leicestershire' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Hampshire' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Middlesex' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Sussex' AS [TeamName], 1 AS IsActive UNION ALL
+--SELECT 'Warwickshire' AS [TeamName], 1 AS IsActive UNION ALL
 SELECT 'Scotland' AS [TeamName], 1 AS IsActive UNION ALL
 SELECT 'Afghanistan' AS [TeamName], 1 AS IsActive UNION ALL
 SELECT 'Hong Kong' AS [TeamName], 1 AS IsActive UNION ALL
