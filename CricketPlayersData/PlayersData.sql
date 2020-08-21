@@ -9854,13 +9854,13 @@ BEGIN TRY
               THEN
                   UPDATE
                   SET TARGET.PlayingRole = SOURCE.PlayingRole
-                      TARGET.CricSheetName = SOURCE.CricSheetName
-                      TARGET.FullName = SOURCE.FullName
-                      TARGET.DateOfBirth = SOURCE.DateOfBirth
-                      TARGET.BattingStyle = SOURCE.BattingStyle
-                      TARGET.BowlingStyle = SOURCE.BowlingStyle
-                      TARGET.CricInfoId = SOURCE.CricInfoId
-                      TARGET.IsActive = SOURCE.IsActive
+                      , TARGET.CricSheetName = SOURCE.CricSheetName
+                      , TARGET.FullName = SOURCE.FullName
+                      , TARGET.DateOfBirth = SOURCE.DateOfBirth
+                      , TARGET.BattingStyle = SOURCE.BattingStyle
+                      , TARGET.BowlingStyle = SOURCE.BowlingStyle
+                      , TARGET.CricInfoId = SOURCE.CricInfoId
+                      , TARGET.IsActive = SOURCE.IsActive
               WHEN NOT MATCHED BY TARGET
               THEN
                   INSERT(Name
