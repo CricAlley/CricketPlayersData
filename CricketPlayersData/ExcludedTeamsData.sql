@@ -71,6 +71,22 @@ SELECT 'Saudi Arabia' AS [TeamName], 1 AS IsActive UNION ALL
 SELECT 'Bahrain' AS [TeamName], 1 AS IsActive UNION ALL
 SELECT 'Iran' AS [TeamName], 1 AS IsActive UNION ALL
 SELECT 'Ireland' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Indonesia' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'China' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Lesotho' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Malawi' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Sierra Leone' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Mozambique' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Kuwait' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Tanzania' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Rwanda' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Japan' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Fiji' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Samoa' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Mali' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'South Korea' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Austria' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Isle of Man' AS [TeamName], 1 AS IsActive UNION ALL
 SELECT 'Zimbabwe' AS [TeamName], 1 AS IsActive
 
 Go
