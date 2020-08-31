@@ -82,16 +82,18 @@ BEGIN TRY
       MERGE  dbo.ExcludedTeams AS TARGET
           USING #excludedTeams AS SOURCE
           ON(TARGET.[TeamName] = SOURCE.[TeamName])
-              WHEN MATCHED AND TARGET.IsActive <> SOURCE.IsActive
-              THEN
-                  UPDATE
-                  SET TARGET.IsActive = SOURCE.IsActive
-              WHEN NOT MATCHED BY TARGET
-              THEN
-                  INSERT([TeamName]
-                        , IsActive)
-                  VALUES(SOURCE.[TeamName]
-                        , SOURCE.IsActive);
+				WHEN MATCHED AND TARGET.IsActive <> SOURCE.IsActive
+				THEN
+					UPDATE
+					SET TARGET.IsActive = SOURCE.IsActive
+				WHEN NOT MATCHED BY TARGET
+				THEN
+					INSERT([TeamName]
+							, IsActive)
+					VALUES(SOURCE.[TeamName]
+							, SOURCE.IsActive)
+				WHEN NOT MATCHED BY SOURCE
+				THEN DELETE;
 
   COMMIT TRANSACTION
 PRINT 'MERGE dbo.ExcludedTeams - Done'
