@@ -1,5 +1,2 @@
 #!/bin/bash
-source /etc/profile
-sqlpackage /a:Publish /tsn:$(DbServerName) /tdn:$(DbName) /tu:$(DbUser) /tp:$(DbPassword) /sf:CricketPlayersData.dacpac
-
-
+sqlpackage /a:Publish /tcs:"$1" /sf:CricketPlayersData.dacpac
