@@ -67,9 +67,7 @@
     <None Include="runElasticIngestion.sh">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="stagefdata.sh">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="stagefdata.sh" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="CricketPlayerData.PostDeployment.sql" />
