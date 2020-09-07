@@ -1,15 +1,13 @@
 #!/bin/bash
-InputFolderPath=$1
-PathPrefix="/usr/local/cricalley"
-if [ -d "$PathPrefix/$InputFolderPath" ]; then sudo rm -d -R $PathPrefix/$InputFolderPath; fi
-sudo mkdir -p $PathPrefix/$InputFolderPath/
-sudo chmod 777 $PathPrefix/$InputFolderPath
-sudo mkdir $PathPrefix/$InputFolderPath/Temp
-sudo chmod 777 $PathPrefix/$InputFolderPath/Temp
-echo "Files present in $PathPrefix/$InputFolderPath/"
-ls $PathPrefix/$InputFolderPath/
-echo "Files present in $PathPrefix/$InputFolderPath/Temp"
-ls $PathPrefix/$InputFolderPath/Temp/
+InputFolderpath=$1
+PrefixPath=$2
+if [ -d "$PrefixPath/$InputFolderpath" ]; then sudo rm -d -r $PrefixPath/$InputFolderpath; fi
+sudo mkdir -p $PrefixPath/$InputFolderpath/Temp
+sudo chmod 777 -r $PrefixPath/$InputFolderpath
+echo "file in $PrefixPath/$InputFolderpath"
+ls $PrefixPath/$InputFolderpath
+echo "files in $PrefixPath/$InputFolderpath/Temp"
+ls $PrefixPath/$InputFolderpath/Temp
 wget -P $PathPrefix/$InputFolderPath/Temp https://cricsheet.org/downloads/odis_male.zip
 unzip $PathPrefix/$InputFolderPath/Temp/odis_male.zip -d $PathPrefix/$InputFolderPath/odis_male
 wget -P $PathPrefix/$InputFolderPath/Temp https://cricsheet.org/downloads/t20s_male.zip
@@ -22,5 +20,4 @@ wget -P $PathPrefix/$InputFolderPath/Temp https://cricsheet.org/downloads/ipl_ma
 unzip $PathPrefix/$InputFolderPath/Temp/ipl_male.zip -d $PathPrefix/$InputFolderPath/ipl_male
 wget -P $PathPrefix/$InputFolderPath/Temp https://cricsheet.org/downloads/ntb_male.zip
 unzip $PathPrefix/$InputFolderPath/Temp/ntb_male.zip -d $PathPrefix/$InputFolderPath/ntb_male
-rm -d -R $PathPrefix/$InputFolderPath/Temp
-
+rm -d -r $PathPrefix/$InputFolderPath/Temp
