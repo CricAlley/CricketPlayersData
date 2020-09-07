@@ -4,7 +4,7 @@ PrefixPath=$2
 if [ -d "$PrefixPath/$InputFolderpath" ]; then sudo rm -d -r $PrefixPath/$InputFolderpath; fi
 sudo mkdir -p $PrefixPath/$InputFolderpath/Temp
 sudo chmod 777 -r $PrefixPath/$InputFolderpath
-echo "file in $PrefixPath/$InputFolderpath ty"
+echo "file in $PrefixPath/$InputFolderpath"
 ls $PrefixPath/$InputFolderpath
 echo "files in $PrefixPath/$InputFolderpath/Temp"
 ls $PrefixPath/$InputFolderpath/Temp
