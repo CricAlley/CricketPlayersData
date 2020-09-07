@@ -1,6 +1,6 @@
 #!/bin/bash
-InputFolderPath="$1"
-if [ -d "$HOME/$InputFolderPath/" ]; then sudo rm -d -R $HOME/$InputFolderPath/; fi
+InputFolderPath=$1
+#if [ -d "$HOME/$InputFolderPath/" ]; then sudo rm -d -R $HOME/$InputFolderPath/; fi
 
 sudo mkdir -p $HOME/$InputFolderPath/
 sudo chmod 777 $HOME/$InputFolderPath
@@ -31,4 +31,4 @@ unzip $HOME/$InputFolderPath/Temp/ipl_male.zip -d $HOME/$InputFolderPath/ipl_mal
 wget -P $HOME/$InputFolderPath/Temp https://cricsheet.org/downloads/ntb_male.zip
 unzip $HOME/$InputFolderPath/Temp/ntb_male.zip -d $HOME/$InputFolderPath/ntb_male
 
-rm -d -R $HOME/$InputFolderPath/Temp/
+#rm -d -R $HOME/$InputFolderPath/Temp/
