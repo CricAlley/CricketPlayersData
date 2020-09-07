@@ -23,3 +23,4 @@ unzip $PathPrefix/$InputFolderPath/Temp/ipl_male.zip -d $PathPrefix/$InputFolder
 wget -P $PathPrefix/$InputFolderPath/Temp https://cricsheet.org/downloads/ntb_male.zip
 unzip $PathPrefix/$InputFolderPath/Temp/ntb_male.zip -d $PathPrefix/$InputFolderPath/ntb_male
 rm -d -R $PathPrefix/$InputFolderPath/Temp
+
