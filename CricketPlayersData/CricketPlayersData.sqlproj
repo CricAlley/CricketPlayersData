@@ -67,7 +67,7 @@
     <None Include="runElasticIngestion.sh">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="jmd.sh">
+    <None Include="tomato.sh">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
