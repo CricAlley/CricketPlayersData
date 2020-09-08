@@ -1,5 +1,4 @@
 #!/bin/bash
-set -xv
 InputFolderPath=$1
 PrefixPath=$2
 if [ -d "$PrefixPath/$InputFolderPath" ]; then sudo rm -d "$PrefixPath/$InputFolderPath"; fi;
