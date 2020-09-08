@@ -64,12 +64,8 @@
     <None Include="publishdbdata.sh">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="runElasticIngestion.sh">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="tetra5.sh">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="deploy cricket match staging.txt" />
+    <None Include="deploy elastic ingestor.txt" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="CricketPlayerData.PostDeployment.sql" />

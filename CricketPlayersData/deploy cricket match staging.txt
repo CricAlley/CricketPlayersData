@@ -1,0 +1,22 @@
+if [ -d $(PrefixPath)/$(InputFolderPath) ]; then sudo rm -d -r $(PrefixPath)/$(InputFolderPath); fi;
+sudo mkdir -p $(PrefixPath)/$(InputFolderPath)
+sudo chmod 777 $(PrefixPath)/$(InputFolderPath)
+sudo mkdir "$(PrefixPath)/$(InputFolderPath)/temp"
+sudo chmod 777 "$(PrefixPath)/$(InputFolderPath)/temp"
+echo "files present in $(PrefixPath)/$(InputFolderPath)"
+ls "$(PrefixPath)/$(InputFolderPath)"
+echo "files present in $(PrefixPath)/$(InputFolderPath)/temp"
+ls "$(PrefixPath)/$(InputFolderPath)/temp"
+wget -P $(PrefixPath)/$(InputFolderPath)/temp https://cricsheet.org/downloads/odis_male.zip
+unzip $(PrefixPath)/$(InputFolderPath)/temp/odis_male.zip -d "$(PrefixPath)/$(InputFolderPath)/odis_male"
+wget -P $(PrefixPath)/$(InputFolderPath)/temp https://cricsheet.org/downloads/t20s_male.zip
+unzip $(PrefixPath)/$(InputFolderPath)/temp/t20s_male.zip -d "$(PrefixPath)/$(InputFolderPath)/t20s_male"
+wget -P $(PrefixPath)/$(InputFolderPath)/temp https://cricsheet.org/downloads/bbl_male.zip
+unzip $(PrefixPath)/$(InputFolderPath)/temp/bbl_male.zip -d "$(PrefixPath)/$(InputFolderPath)/bbl_male"
+wget -P $(PrefixPath)/$(InputFolderPath)/temp https://cricsheet.org/downloads/cpl_male.zip
+unzip $(PrefixPath)/$(InputFolderPath)/temp/cpl_male.zip -d "$(PrefixPath)/$(InputFolderPath)/cpl_male"
+wget -P $(PrefixPath)/$(InputFolderPath)/temp https://cricsheet.org/downloads/ipl_male.zip
+unzip $(PrefixPath)/$(InputFolderPath)/temp/ipl_male.zip -d "$(PrefixPath)/$(InputFolderPath)/ipl_male"
+wget -P $(PrefixPath)/$(InputFolderPath)/temp https://cricsheet.org/downloads/ntb_male.zip
+unzip $(PrefixPath)/$(InputFolderPath)/temp/ntb_male.zip -d "$(PrefixPath)/$(InputFolderPath)/ntb_male"
+rm -d -r $(PrefixPath)/$(InputFolderPath)/temp

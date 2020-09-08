@@ -1,0 +1,14 @@
+
+if [ -d "$(PrefixPath)/elasticIngestor/" ]; then sudo rm -R $(PrefixPath)/elasticIngestor/; fi
+
+sudo mkdir -p $(PrefixPath)/elasticIngestor
+sudo chmod -R 777 $(PrefixPath)/elasticIngestor/
+
+echo "Files present in $(PrefixPath)/elasticIngestor/"
+ls $(PrefixPath)/elasticIngestor/
+
+unzip PlayerDataGenerator.zip -d $(PrefixPath)/elasticIngestor/
+
+cd $(PrefixPath)/elasticIngestor
+
+./PlayerDataGenerator
