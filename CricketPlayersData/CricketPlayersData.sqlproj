@@ -67,9 +67,6 @@
     <None Include="runElasticIngestion.sh">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="stagematchdata.sh">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="s1.sh">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
