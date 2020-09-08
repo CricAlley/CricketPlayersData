@@ -10,7 +10,7 @@ echo "files present in $prefixpath/$inputfolderpath"
 ls "$prefixpath/$inputfolderpath"
 echo "files present in $prefixpath/$inputfolderpath/temp"
 ls "$prefixpath/$inputfolderpath/temp"
-wget -P "$prefixpath/$inputfolderpath/temp" https://cricsheet.org/downloads/odis_male.zip
+wget -P $prefixpath/$inputfolderpath/temp https://cricsheet.org/downloads/odis_male.zip
 unzip $prefixpath/$inputfolderpath/temp/odis_male.zip -d "$prefixpath/$inputfolderpath/odis_male"
 wget -P $prefixpath/$inputfolderpath/temp https://cricsheet.org/downloads/t20s_male.zip
 unzip $prefixpath/$inputfolderpath/temp/t20s_male.zip -d "$prefixpath/$inputfolderpath/t20s_male"
