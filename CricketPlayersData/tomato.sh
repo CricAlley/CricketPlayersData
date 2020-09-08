@@ -1,6 +1,6 @@
 #!/bin/bash
-InputFolderPath=$1
-PrefixPath=$2
-#if [ -d "$(PrefixPath)"/$(InputFolderPath) ]; then sudo rm -d $(PrefixPath)/$(InputFolderPath); fi;
-sudo mkdir -p "$(PrefixPath)"/"$(InputFolderPath)"
-sudo chmod 777 "$(PrefixPath)"/"$(InputFolderPath)"
+inputfolderpath=$1
+prefixpath=$2
+# if [ -d $(prefixpath)/$(inputfolderpath) ]; then sudo rm -d -r $(prefixpath)/$(inputfolderpath); fi;
+sudo mkdir -p "$prefixpath//$inputfolderpath"
+sudo chmod 777 "$prefixpath//$inputfolderpath"
