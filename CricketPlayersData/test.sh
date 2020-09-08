@@ -6,4 +6,4 @@ then
 	echo "Path exists"
 else
 	echo "Path does not exists."
-fi;
+fi
