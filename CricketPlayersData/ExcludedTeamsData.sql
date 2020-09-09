@@ -87,6 +87,9 @@ SELECT 'Mali' AS [TeamName], 1 AS IsActive UNION ALL
 SELECT 'South Korea' AS [TeamName], 1 AS IsActive UNION ALL
 SELECT 'Austria' AS [TeamName], 1 AS IsActive UNION ALL
 SELECT 'Isle of Man' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Belgium' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Czech Republic' AS [TeamName], 1 AS IsActive UNION ALL
+SELECT 'Luxembourg' AS [TeamName], 1 AS IsActive UNION ALL
 SELECT 'Zimbabwe' AS [TeamName], 1 AS IsActive
 
 Go

@@ -9858,7 +9858,11 @@ SELECT 'Jason Long' AS Name, 'Jason Long' AS FullName, 'AllRounder' AS PlayingRo
 SELECT 'Richard Goodwin' AS Name, 'Richard Goodwin' AS FullName, 'Batsman' AS PlayingRole, '03/08/1987' AS DateofBirth, 'Right-hand bat' AS BattingStyle, '' AS BowlingStyle, 1177729 AS CricInfoId, 1 AS IsActive, NULL AS CricsheetName UNION ALL
 SELECT 'Christophe Masike' AS Name, 'Christopher Tadana Brendon Masike' AS FullName, 'AllRounder' AS PlayingRole, '06/05/1998' AS DateofBirth, 'Right-hand bat' AS BattingStyle, 'Right-arm offbreak' AS BowlingStyle, 1178083 AS CricInfoId, 1 AS IsActive, NULL AS CricsheetName UNION ALL
 SELECT 'Jayden Seales' AS Name, 'Jayden Nigel Tristen Seales' AS FullName, 'Bowler' AS PlayingRole, '09/10/2001' AS DateofBirth, 'Left-hand bat' AS BattingStyle, 'Right-arm medium' AS BowlingStyle, 1199304 AS CricInfoId, 1 AS IsActive, 'JNT Seales' AS CricsheetName UNION ALL
-SELECT 'Dilbar Hussain' AS Name, 'Dilbar Hussain' AS FullName, 'Bowler' AS PlayingRole, '02/20/1993' AS DateofBirth, 'Right-hand bat' AS BattingStyle, 'Right-arm fast-medium' AS BowlingStyle, 1206623 AS CricInfoId, 1 AS IsActive, 'Dilbar Hussain' AS CricsheetName
+SELECT 'Dilbar Hussain' AS Name, 'Dilbar Hussain' AS FullName, 'Bowler' AS PlayingRole, '02/20/1993' AS DateofBirth, 'Right-hand bat' AS BattingStyle, 'Right-arm fast-medium' AS BowlingStyle, 1206623 AS CricInfoId, 1 AS IsActive, 'Dilbar Hussain' AS CricsheetName UNION ALL
+SELECT 'Nyeem Young' AS Name, 'Nyeem Ryan Joshua Young' AS FullName, 'Bowler' AS PlayingRole, '09/22/2000' AS DateofBirth, 'Right-hand bat' AS BattingStyle, 'Right-arm medium' AS BowlingStyle, 1108830 AS CricInfoId, 1 AS IsActive, 'NRJ Young' AS CricsheetName UNION ALL
+SELECT 'Amir Jangoo' AS Name, 'Amir Anthony Jangoo' AS FullName, 'Wicketkeeper batsman' AS PlayingRole, '07/14/1997' AS DateofBirth, 'Left-hand bat' AS BattingStyle, NULL AS BowlingStyle, 820681 AS CricInfoId, 1 AS IsActive, 'AA Jangoo' AS CricsheetName UNION ALL
+SELECT 'Colin Archibald' AS Name, 'Colin Kezron Archibald' AS FullName, 'Bowling allrounder' AS PlayingRole, '10/20/1996' AS DateofBirth, 'Left-hand bat' AS BattingStyle, 'Left-arm fast-medium' AS BowlingStyle, 914577 AS CricInfoId, 1 AS IsActive, 'C Archibald' AS CricsheetName UNION ALL
+SELECT 'Kissoondath Magram' AS Name, 'Kissoondath Magram' AS FullName, 'Bowler' AS PlayingRole, NULL AS DateofBirth, 'Right-hand bat' AS BattingStyle, 'Legbreak' AS BowlingStyle, 1213280 AS CricInfoId, 1 AS IsActive, 'K Magram' AS CricsheetName
 
 BEGIN TRY
 
