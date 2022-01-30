@@ -12,7 +12,10 @@ CREATE TABLE #playerRegister
 );
 
 INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
-SELECT 'b4a23876' AS Identifier, 'AAA Amsterdam' AS UniqueName, '' AS Names, '772407' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT 'b4a23876' AS Identifier, 'AAA Amsterdam' AS UniqueName, '' AS Names, '772407' AS CricInfoId, 1 AS IsActive
+Go
+
+INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
 SELECT '4b0e3049' AS Identifier, 'AA Alleyne' AS UniqueName, 'Alleyne, A Alleyne' AS Names, '661441' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fd3c5c00' AS Identifier, 'AAA Patel' AS UniqueName, '' AS Names, '1163136' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5c67c7a6' AS Identifier, 'AA Baig' AS UniqueName, '' AS Names, '524897' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -108,7 +111,7 @@ SELECT '61a1cead' AS Identifier, 'Abdul Mazid' AS UniqueName, '' AS Names, '5084
 SELECT 'db07c3e8' AS Identifier, 'Abdul Nabi' AS UniqueName, '' AS Names, '39370' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '494a0503' AS Identifier, 'Abdul Nasir' AS UniqueName, '' AS Names, '1216919' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '05c3780a' AS Identifier, 'Abdul Nasir (2)' AS UniqueName, '' AS Names, '39014' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '35824000' AS Identifier, 'Abdul Qadir' AS UniqueName, '' AS Names, '402205' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '35824e03' AS Identifier, 'Abdul Qadir' AS UniqueName, '' AS Names, '402205' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0b1dadd2' AS Identifier, 'Abdul Qadir Khan' AS UniqueName, 'Abdul Qadir' AS Names, '38973' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '12f53be7' AS Identifier, 'Abdul Rahman' AS UniqueName, 'Abdul Rahman Bhadelia' AS Names, '1048915' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '40431f63' AS Identifier, 'Mohammad Abdul Rahman' AS UniqueName, '' AS Names, '1269466' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -286,7 +289,7 @@ SELECT 'b54003c6' AS Identifier, 'A D''Souza' AS UniqueName, 'Antao D''Souza' AS
 SELECT '0c5bb005' AS Identifier, 'AD Thomason' AS UniqueName, 'A Thomason' AS Names, '739603' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'df4a8cbf' AS Identifier, 'A Ducat' AS UniqueName, 'Andy Ducat' AS Names, '11943' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '803dbf1d' AS Identifier, 'A Dutt' AS UniqueName, '' AS Names, '1195672' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '9040730' AS Identifier, 'AD Willoughby' AS UniqueName, '' AS Names, '227734' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '09040730' AS Identifier, 'AD Willoughby' AS UniqueName, '' AS Names, '227734' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8efa0387' AS Identifier, 'AE Dick' AS UniqueName, 'Artie Dick' AS Names, '36830' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7cc55679' AS Identifier, 'AE Dipper' AS UniqueName, 'Alfred Dipper' AS Names, '11898' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7b34c7e2' AS Identifier, 'AE Dyson' AS UniqueName, '' AS Names, '877527' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -384,7 +387,7 @@ SELECT '809ecb9d' AS Identifier, 'AG Steel' AS UniqueName, 'Allan Steel' AS Name
 SELECT '10854c82' AS Identifier, 'A Gurung' AS UniqueName, '' AS Names, '1140101' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '730d120f' AS Identifier, 'AG Wakely' AS UniqueName, 'A Wakely' AS Names, '23506' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b4a03e25' AS Identifier, 'AG Walker' AS UniqueName, '' AS Names, '338858' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '747209' AS Identifier, 'AG Weligamage' AS UniqueName, '' AS Names, '1275721' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '747209e0' AS Identifier, 'AG Weligamage' AS UniqueName, '' AS Names, '1275721' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2e0fcc58' AS Identifier, 'AG Wharf' AS UniqueName, '' AS Names, '22380' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '97f2d4b6' AS Identifier, 'A Habib' AS UniqueName, 'Aftab Habib' AS Names, '13985' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'df1b4c8f' AS Identifier, 'A Halbhavi' AS UniqueName, '' AS Names, '1275734' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -553,7 +556,7 @@ SELECT '0d518f89' AS Identifier, 'A Khaka' AS UniqueName, 'Khaka' AS Names, '387
 SELECT 'e27cff77' AS Identifier, 'A Khan' AS UniqueName, '' AS Names, '23911' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '78ba5d1b' AS Identifier, 'AK Heal' AS UniqueName, '' AS Names, '5966' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2deb4082' AS Identifier, 'A Kheterpal' AS UniqueName, '' AS Names, '1204131' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '2.9859E+75' AS Identifier, 'Akhtar Ahmad' AS UniqueName, '' AS Names, '265850' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '29859e71' AS Identifier, 'Akhtar Ahmad' AS UniqueName, '' AS Names, '265850' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '99d7d5b7' AS Identifier, 'Akif Javed' AS UniqueName, '' AS Names, '1203669' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9d0344f3' AS Identifier, 'Akif Raja' AS UniqueName, '' AS Names, '1281546' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e1d712bb' AS Identifier, 'A Kind-David' AS UniqueName, '' AS Names, '581612' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -595,7 +598,7 @@ SELECT 'c7a9a971' AS Identifier, 'A Kuruvilla' AS UniqueName, 'Abey Kuruvilla' A
 SELECT 'ec256d9d' AS Identifier, 'AKV Tyrone' AS UniqueName, 'AKV Tyronne' AS Names, '629083' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'de412f40' AS Identifier, 'AK Wilds' AS UniqueName, '' AS Names, '499082' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1b068ee9' AS Identifier, 'A Lambert' AS UniqueName, '' AS Names, '23941' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '3532650000000' AS Identifier, 'Alamgir Kabir' AS UniqueName, '' AS Names, '56249' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '353265e7' AS Identifier, 'Alamgir Kabir' AS UniqueName, '' AS Names, '56249' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ec72efc5' AS Identifier, 'Al-Amin' AS UniqueName, '' AS Names, '549947' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3f5f39cd' AS Identifier, 'Al-Amin Hossain' AS UniqueName, '' AS Names, '511532' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fe0b3bdf' AS Identifier, 'A Langham' AS UniqueName, '' AS Names, '1163181' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -616,7 +619,7 @@ SELECT '97f2faf0' AS Identifier, 'Aleena Khan' AS UniqueName, '' AS Names, '1213
 SELECT '8e519e52' AS Identifier, 'Alex J Jones' AS UniqueName, '' AS Names, '300087' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5df49485' AS Identifier, 'ALF de Mel' AS UniqueName, 'Ashantha de Mel' AS Names, '48447' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '029c4618' AS Identifier, 'AL Fekete' AS UniqueName, 'Fekete, Andrew Fekete' AS Names, '270493' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '5786298' AS Identifier, 'Alf Hall' AS UniqueName, 'AE Hall' AS Names, '45394' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '05786298' AS Identifier, 'Alf Hall' AS UniqueName, 'AE Hall' AS Names, '45394' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1a1f45a4' AS Identifier, 'AL Gillies' AS UniqueName, '' AS Names, '496698' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '668d33d5' AS Identifier, 'AL Hassett' AS UniqueName, '' AS Names, '5607' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4165ced0' AS Identifier, 'AL Hill' AS UniqueName, '' AS Names, '37274' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -644,9 +647,9 @@ SELECT '7873a628' AS Identifier, 'Ali Shafiq' AS UniqueName, '' AS Names, '10128
 SELECT '45d38a84' AS Identifier, 'Al Islam' AS UniqueName, '' AS Names, '1171289' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7f6f68a0' AS Identifier, 'Alison Smith' AS UniqueName, '' AS Names, '902483' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '090c0213' AS Identifier, 'A Lister' AS UniqueName, '' AS Names, '1184173' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Ali Waqar' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1263716' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '89e17934' AS Identifier, 'Ali Waqar' AS UniqueName, '' AS Names, '1263716' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4b55733f' AS Identifier, 'Ali Waqas' AS UniqueName, 'A Waqas' AS Names, '282711' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Ali Yalmaz' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1275720' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '026e1314' AS Identifier, 'Ali Yalmaz' AS UniqueName, '' AS Names, '1275720' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2904b4b6' AS Identifier, 'Aliya Riaz' AS UniqueName, 'A Riaz' AS Names, '572645' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '04ed04d2' AS Identifier, 'Ali Zaheer' AS UniqueName, '' AS Names, '452543' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '10840285' AS Identifier, 'AL Kandappah' AS UniqueName, '' AS Names, '313432' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -662,7 +665,7 @@ SELECT '9dc1f62b' AS Identifier, 'Almas Akram' AS UniqueName, '' AS Names, '3466
 SELECT '8291f939' AS Identifier, 'AL Menaria' AS UniqueName, 'A Menaria' AS Names, '371150' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '83ea85f6' AS Identifier, 'AL Ndhlovu' AS UniqueName, '' AS Names, '221453' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8c90747d' AS Identifier, 'AL Ochse' AS UniqueName, 'Arthur Ochse' AS Names, '46674' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '5.4279E+27' AS Identifier, 'Alok Kapali' AS UniqueName, '' AS Names, '56251' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '54279e23' AS Identifier, 'Alok Kapali' AS UniqueName, '' AS Names, '56251' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '283631cb' AS Identifier, 'Alotaibi Mohammed' AS UniqueName, '' AS Names, '781117' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5eecae5d' AS Identifier, 'A Louw' AS UniqueName, '' AS Names, '233056' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b5897bf7' AS Identifier, 'AL Padmore' AS UniqueName, 'Albert Padmore' AS Names, '52667' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -683,7 +686,7 @@ SELECT '3fbafad4' AS Identifier, 'AMA Dewar' AS UniqueName, '' AS Names, '431903
 SELECT '1d4ccacd' AS Identifier, 'Amad Sheikh' AS UniqueName, '' AS Names, '917097' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9001b45c' AS Identifier, 'A Makesh' AS UniqueName, '' AS Names, '1143539' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e3434f95' AS Identifier, 'AM Ali' AS UniqueName, '' AS Names, '648439' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'AM Ally' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1119589' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '1e451414' AS Identifier, 'AM Ally' AS UniqueName, '' AS Names, '1119589' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5147ad5b' AS Identifier, 'Aman Ali' AS UniqueName, '' AS Names, '319613' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'eebc0141' AS Identifier, 'A Manatos' AS UniqueName, '' AS Names, '1267525' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd0d32c30' AS Identifier, 'Amandeep Singh' AS UniqueName, '' AS Names, '1274042' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -769,16 +772,16 @@ SELECT 'bd36db2c' AS Identifier, 'A Mnyaka' AS UniqueName, '' AS Names, '595882'
 SELECT 'a49985e6' AS Identifier, 'A Mohammed' AS UniqueName, 'Mohammed' AS Names, '55187' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '89b3278d' AS Identifier, 'Azurdeen Mohammed' AS UniqueName, '' AS Names, '414250' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '781f1a40' AS Identifier, 'A Mokgotlhe' AS UniqueName, '' AS Names, '1158369' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '26647300' AS Identifier, 'Amoluk Singh' AS UniqueName, '' AS Names, '1273407' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '266473e2' AS Identifier, 'Amoluk Singh' AS UniqueName, '' AS Names, '1273407' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '04cf2e94' AS Identifier, 'A Morris' AS UniqueName, '' AS Names, '379537' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '21946d0d' AS Identifier, 'AM Oyede' AS UniqueName, '' AS Names, '522225' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c9a68866' AS Identifier, 'AM Pai' AS UniqueName, 'Ajit Pai' AS Names, '32149' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7e8ffb67' AS Identifier, 'A Mpeka' AS UniqueName, '' AS Names, '516434' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ae2c396f' AS Identifier, 'AM Peterson' AS UniqueName, 'Peterson, A Peterson' AS Names, '329003' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7f8ecc51' AS Identifier, 'AM Phangiso' AS UniqueName, 'A Phangiso' AS Names, '46942' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'AM Rahane' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '277916' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '29e95537' AS Identifier, 'AM Rahane' AS UniqueName, 'A Rahane' AS Names, '277916' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7bcde3fe' AS Identifier, 'AM Rossington' AS UniqueName, 'A Rossington' AS Names, '457280' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'AM Saheba' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '34544' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '883e3818' AS Identifier, 'AM Saheba' AS UniqueName, '' AS Names, '34544' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '260fd380' AS Identifier, 'AM Salvi' AS UniqueName, '' AS Names, '34264' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '513158ed' AS Identifier, 'AM Samad' AS UniqueName, '' AS Names, '23826' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9e6823e7' AS Identifier, 'AM Samaroo' AS UniqueName, '' AS Names, '307942' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -796,7 +799,7 @@ SELECT 'e28089ac' AS Identifier, 'A Nakayama' AS UniqueName, '' AS Names, '48690
 SELECT '06653fcc' AS Identifier, 'Anam Amin' AS UniqueName, 'A Amin' AS Names, '725879' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '927a5ef5' AS Identifier, 'Anam Mollik' AS UniqueName, '' AS Names, '1156453' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '72b245dd' AS Identifier, 'Anamul Haque' AS UniqueName, 'A Haque' AS Names, '380354' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7.04E+162' AS Identifier, 'A Nanda' AS UniqueName, '' AS Names, '1198917' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '704e0160' AS Identifier, 'A Nanda' AS UniqueName, '' AS Names, '1198917' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '84424f4f' AS Identifier, 'A Nand Kishore' AS UniqueName, '' AS Names, '31917' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd2340a43' AS Identifier, 'Anand Rajan' AS UniqueName, 'A Rajan' AS Names, '26797' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6c4ca034' AS Identifier, 'Anantha Rajamani' AS UniqueName, '' AS Names, '1209329' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -818,7 +821,7 @@ SELECT '32c53327' AS Identifier, 'Andrew Scotford' AS UniqueName, '' AS Names, '
 SELECT 'c2233c17' AS Identifier, 'Andrey Lilov' AS UniqueName, '' AS Names, '1284580' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '96fd40ae' AS Identifier, 'A Nehra' AS UniqueName, '' AS Names, '31820' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4957b300' AS Identifier, 'A Neill' AS UniqueName, '' AS Names, '1148466' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'A Nel' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '46569' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '2503e881' AS Identifier, 'A Nel' AS UniqueName, '' AS Names, '46569' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '06767a0f' AS Identifier, 'AN French' AS UniqueName, '' AS Names, '24124' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7023d182' AS Identifier, 'AN Ghosh' AS UniqueName, '' AS Names, '220435' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c5c31367' AS Identifier, 'AN Hornby' AS UniqueName, 'Monkey Hornby' AS Names, '14267' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -833,7 +836,7 @@ SELECT 'affbf093' AS Identifier, 'Anisur Rahman' AS UniqueName, '' AS Names, '56
 SELECT 'e15d9f04' AS Identifier, 'Anjali Chand' AS UniqueName, '' AS Names, '779619' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '72275237' AS Identifier, 'Anjar Tadarus' AS UniqueName, '' AS Names, '1082745' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '14f03b2f' AS Identifier, 'Anjum Awais' AS UniqueName, '' AS Names, '1082756' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '397369' AS Identifier, 'AN Kelly' AS UniqueName, 'Kelly' AS Names, '592593' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '397369e0' AS Identifier, 'AN Kelly' AS UniqueName, 'Kelly' AS Names, '592593' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'dc36a6a5' AS Identifier, 'AN Kervezee' AS UniqueName, '' AS Names, '214695' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '691e535a' AS Identifier, 'Ankita Ved' AS UniqueName, '' AS Names, '1050055' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '24d94623' AS Identifier, 'Ankit Sharma' AS UniqueName, 'A Sharma' AS Names, '422992' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -975,7 +978,7 @@ SELECT 'fa1bc15e' AS Identifier, 'AR Morris' AS UniqueName, '' AS Names, '6644' 
 SELECT '92b7602a' AS Identifier, 'AR Nedd' AS UniqueName, '' AS Names, '1131647' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4a745f65' AS Identifier, 'AR Nurse' AS UniqueName, 'A Nurse' AS Names, '315594' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4447c23f' AS Identifier, 'A Rose-Innes' AS UniqueName, 'Albert Rose-Innes' AS Names, '46996' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'AR Patel' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '554691' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '2e171977' AS Identifier, 'AR Patel' AS UniqueName, 'A Patel' AS Names, '554691' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b43f7a6a' AS Identifier, 'AR Patwa' AS UniqueName, '' AS Names, '296167' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8ffe3c97' AS Identifier, 'AR Pitcher' AS UniqueName, '' AS Names, '247009' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '13781d43' AS Identifier, 'AR Reakes' AS UniqueName, 'Ange Reakes' AS Names, '375260' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1012,7 +1015,10 @@ SELECT '6376fb1e' AS Identifier, 'A Sandham' AS UniqueName, 'Andy Sandham' AS Na
 SELECT 'f5b1b6bb' AS Identifier, 'A Sanford' AS UniqueName, '' AS Names, '52957' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c6d92330' AS Identifier, 'A Sangare' AS UniqueName, '' AS Names, '1189315' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f97aaa50' AS Identifier, 'ASA Perera' AS UniqueName, 'Suresh Perera' AS Names, '49854' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT 'a5efce80' AS Identifier, 'A Sarma' AS UniqueName, '' AS Names, '1046605' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT 'a5efce80' AS Identifier, 'A Sarma' AS UniqueName, '' AS Names, '1046605' AS CricInfoId, 1 AS IsActive
+Go
+
+INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
 SELECT '27e60d6e' AS Identifier, 'AS Dale' AS UniqueName, '' AS Names, '906677' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5044f30d' AS Identifier, 'AS Dean' AS UniqueName, '' AS Names, '372509' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '88aaf2d7' AS Identifier, 'Asgarali Kassam' AS UniqueName, '' AS Names, '1058236' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1051,7 +1057,7 @@ SELECT '9865ed99' AS Identifier, 'Asif Bevinje' AS UniqueName, '' AS Names, '123
 SELECT 'ef25490c' AS Identifier, 'Asif Hasan' AS UniqueName, '' AS Names, '348050' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '79ef7d54' AS Identifier, 'Asif Iqbal' AS UniqueName, '' AS Names, '39010' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3ce127f2' AS Identifier, 'Asif Iqbal (1)' AS UniqueName, '' AS Names, '39898' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Asif Mahmood' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1101784' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '6e723897' AS Identifier, 'Asif Mahmood' AS UniqueName, '' AS Names, '1101784' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '80fc614d' AS Identifier, 'Asif Masood' AS UniqueName, '' AS Names, '39012' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b75f59f0' AS Identifier, 'Asif Mujtaba' AS UniqueName, '' AS Names, '39013' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '280b8ce7' AS Identifier, 'Asif Raza' AS UniqueName, 'A Raza' AS Names, '241356' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1083,7 +1089,7 @@ SELECT 'e4cdf230' AS Identifier, 'AS Roy' AS UniqueName, 'A Roy' AS Names, '1079
 SELECT '42d9dd09' AS Identifier, 'ASS Fletcher' AS UniqueName, 'Fletcher, A Fletcher' AS Names, '355351' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e43aa7ed' AS Identifier, 'ASS Nijjar' AS UniqueName, 'A Nijjar' AS Names, '637163' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'eac03b76' AS Identifier, 'AS Taai' AS UniqueName, '' AS Names, '54605' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '5625364' AS Identifier, 'AS Tanke' AS UniqueName, '' AS Names, '54688' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '05625364' AS Identifier, 'AS Tanke' AS UniqueName, '' AS Names, '54688' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5a72b592' AS Identifier, 'A Stanley' AS UniqueName, '' AS Names, '1127973' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '89c62cf5' AS Identifier, 'A Steenkamp' AS UniqueName, '' AS Names, '559575' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '14baca9f' AS Identifier, 'A Steyn' AS UniqueName, '' AS Names, '503123' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1127,7 +1133,7 @@ SELECT '648d060e' AS Identifier, 'Aung Ko Ko' AS UniqueName, '' AS Names, '11614
 SELECT 'fdcb08c2' AS Identifier, 'A Uniyal' AS UniqueName, '' AS Names, '35586' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '249d60c9' AS Identifier, 'AU Rashid' AS UniqueName, 'Rashid, A Rashid' AS Names, '244497' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ef27e290' AS Identifier, 'A Uwimbabazi' AS UniqueName, '' AS Names, '1172647' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'A Vala' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '25056' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '72e60730' AS Identifier, 'A Vala' AS UniqueName, '' AS Names, '25056' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '63af7f6e' AS Identifier, 'A van den Berg' AS UniqueName, '' AS Names, '520149' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '02610bad' AS Identifier, 'Adri van der Merwe' AS UniqueName, '' AS Names, '1119572' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a159b802' AS Identifier, 'A van der Merwe' AS UniqueName, '' AS Names, '463217' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1259,7 +1265,7 @@ SELECT 'd7fe80b4' AS Identifier, 'BA O''Brien' AS UniqueName, '' AS Names, '1295
 SELECT '716bf559' AS Identifier, 'BA Pai' AS UniqueName, '' AS Names, '1046619' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5b627626' AS Identifier, 'B Aparajith' AS UniqueName, '' AS Names, '477071' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd666d3a8' AS Identifier, 'BA Parchment' AS UniqueName, '' AS Names, '52687' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'BA Pocock' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '38127' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '632e0929' AS Identifier, 'BA Pocock' AS UniqueName, 'Blair Pocock' AS Names, '38127' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4c0f3806' AS Identifier, 'BA Raine' AS UniqueName, 'B Raine' AS Names, '459761' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '59c2e9f0' AS Identifier, 'BA Reid' AS UniqueName, 'Bruce Reid' AS Names, '7319' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '18bd2ad1' AS Identifier, 'BA Richards' AS UniqueName, 'Barry Richards' AS Names, '46982' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1279,7 +1285,7 @@ SELECT 'e087956b' AS Identifier, 'BA Stokes' AS UniqueName, 'Ben Stokes, B Stoke
 SELECT 'c620f573' AS Identifier, 'Basu Karn' AS UniqueName, '' AS Names, '543487' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b1e5dade' AS Identifier, 'Batool Fatima' AS UniqueName, '' AS Names, '55019' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '079d9bdc' AS Identifier, 'BA Westdijk' AS UniqueName, '' AS Names, '413702' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'BA Williams' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '8231' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '953e3931' AS Identifier, 'BA Williams' AS UniqueName, '' AS Names, '8231' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ea0cdc12' AS Identifier, 'BAW Mendis' AS UniqueName, 'A Mendis' AS Names, '268739' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7872f00a' AS Identifier, 'BA Young' AS UniqueName, 'Bryan Young' AS Names, '38929' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '58a7f842' AS Identifier, 'Baz Aybui' AS UniqueName, '' AS Names, '1273283' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1288,7 +1294,7 @@ SELECT '305c31f2' AS Identifier, 'BBA Geddes' AS UniqueName, '' AS Names, '11855
 SELECT '6ca1d545' AS Identifier, 'BB Bailey' AS UniqueName, '' AS Names, '917081' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0893265e' AS Identifier, 'BB Bopp' AS UniqueName, 'B Bopp' AS Names, '501654' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '41fc1ece' AS Identifier, 'BB Chari' AS UniqueName, 'B Chari' AS Names, '427178' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'BB Cooper' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '4625' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '12e18174' AS Identifier, 'BB Cooper' AS UniqueName, 'Bransby Cooper' AS Names, '4625' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '72e4ba13' AS Identifier, 'B Bennett' AS UniqueName, '' AS Names, '4298' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '564afdcf' AS Identifier, 'B Bezuidenhout' AS UniqueName, 'BM Bezuidenhout' AS Names, '499247' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '82342b13' AS Identifier, 'B Bhandari' AS UniqueName, 'B. Bhandari' AS Names, '437005' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1372,7 +1378,7 @@ SELECT '50758325' AS Identifier, 'B Geeves' AS UniqueName, '' AS Names, '5472' A
 SELECT '1bdbf53b' AS Identifier, 'B George' AS UniqueName, 'Basil George' AS Names, '1275736' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '34b37279' AS Identifier, 'BGF Green' AS UniqueName, 'B Green, Green' AS Names, '755459' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fd8ffc13' AS Identifier, 'BG Frost' AS UniqueName, '' AS Names, '37013' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '2.6457E+45' AS Identifier, 'BG Jerling' AS UniqueName, '' AS Names, '45726' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '26457e41' AS Identifier, 'BG Jerling' AS UniqueName, '' AS Names, '45726' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0e6453b9' AS Identifier, 'BGK Walker' AS UniqueName, 'Brooke Walker' AS Names, '38737' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '79f5bc26' AS Identifier, 'BG Lister' AS UniqueName, 'Ben Lister, Lister' AS Names, '1125536' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0a3049c5' AS Identifier, 'BG McDonald' AS UniqueName, '' AS Names, '434804' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1495,7 +1501,7 @@ SELECT '66c21d35' AS Identifier, 'BM White' AS UniqueName, '' AS Names, '47886' 
 SELECT '5e7b9318' AS Identifier, 'B Mwita' AS UniqueName, '' AS Names, '296168' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6cfb0d9b' AS Identifier, 'B Narender Reddy' AS UniqueName, '' AS Names, '352290' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '634a7b21' AS Identifier, 'BN Cooper' AS UniqueName, 'B Cooper' AS Names, '470699' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'B Ndipo' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1158397' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '5e118871' AS Identifier, 'B Ndipo' AS UniqueName, '' AS Names, '1158397' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4b8cf39c' AS Identifier, 'BN French' AS UniqueName, 'Bruce French' AS Names, '12923' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b7824537' AS Identifier, 'B Niaz' AS UniqueName, '' AS Names, '1153753' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '04119c26' AS Identifier, 'BN Jarman' AS UniqueName, 'Barry Jarman' AS Names, '6013' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1591,7 +1597,7 @@ SELECT '1a448be0' AS Identifier, 'B White' AS UniqueName, '' AS Names, '928059' 
 SELECT '6cd3a166' AS Identifier, 'B Williams' AS UniqueName, '' AS Names, '420441' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a435e7f4' AS Identifier, 'BW Luckhurst' AS UniqueName, 'Brian Luckhurst' AS Names, '16370' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ed12fcd7' AS Identifier, 'BWM Mike' AS UniqueName, 'B Mike' AS Names, '1093092' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'B Wood' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '22498' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '91e37732' AS Identifier, 'B Wood' AS UniqueName, 'Barry Wood' AS Names, '22498' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e871a7a1' AS Identifier, 'BW Sanderson' AS UniqueName, 'B Sanderson, Sanderson' AS Names, '297482' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'bc031294' AS Identifier, 'BW Sinclair' AS UniqueName, 'Barry Sinclair' AS Names, '38390' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9fa833c8' AS Identifier, 'BW Yuile' AS UniqueName, 'Bryan Yuile' AS Names, '38930' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1620,14 +1626,14 @@ SELECT '4f91427c' AS Identifier, 'Cakacaka Cokovaki' AS UniqueName, '' AS Names,
 SELECT '8012d0b8' AS Identifier, 'CAK Rajitha' AS UniqueName, 'Rajitha, K Rajitha' AS Names, '499594' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'bbff906c' AS Identifier, 'CAK Walton' AS UniqueName, 'C Walton, Chadwick Walton' AS Names, '315586' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6faa48b1' AS Identifier, 'CAL Davis' AS UniqueName, '' AS Names, '457281' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '3850014' AS Identifier, 'C Alfred' AS UniqueName, 'Colin Alfred' AS Names, '51198' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '03850014' AS Identifier, 'C Alfred' AS UniqueName, 'Colin Alfred' AS Names, '51198' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'eea27fb2' AS Identifier, 'CA Liyanage' AS UniqueName, '' AS Names, '1190214' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5a42a396' AS Identifier, 'Callum Taylor' AS UniqueName, 'C Taylor, CZ Taylor' AS Names, '1096822' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '45eda7c8' AS Identifier, 'CA Lynn' AS UniqueName, 'C Lynn, Chris Lynn' AS Names, '326637' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a8fd2b20' AS Identifier, 'CA McElwee' AS UniqueName, '' AS Names, '250778' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c41cca6a' AS Identifier, 'CA McWatt' AS UniqueName, 'Clifford McWatt' AS Names, '52432' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e94e4d8d' AS Identifier, 'CA Merry' AS UniqueName, 'Cyril Merry' AS Names, '52434' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '88425400' AS Identifier, 'CA Milton' AS UniqueName, 'Arthur Milton' AS Names, '17037' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '884254e2' AS Identifier, 'CA Milton' AS UniqueName, 'Arthur Milton' AS Names, '17037' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8e91ae82' AS Identifier, 'C Anayo' AS UniqueName, '' AS Names, '1189311' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e304926f' AS Identifier, 'CA Numungu' AS UniqueName, '' AS Names, '1119471' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '32866fe7' AS Identifier, 'CA Philipson' AS UniqueName, '' AS Names, '7173' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1649,7 +1655,7 @@ SELECT '81271b06' AS Identifier, 'C Atkins' AS UniqueName, '' AS Names, '55188' 
 SELECT 'c5e415aa' AS Identifier, 'CA Wakim' AS UniqueName, '' AS Names, '627623' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4bc2e8bd' AS Identifier, 'CA Walsh' AS UniqueName, 'Courtney Walsh' AS Names, '53216' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '01c1b96c' AS Identifier, 'C Aweko' AS UniqueName, '' AS Names, '383879' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'CA Wiles' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '53226' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '682e9514' AS Identifier, 'CA Wiles' AS UniqueName, 'Archie Wiles' AS Names, '53226' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'bd0a4a7d' AS Identifier, 'CA Young' AS UniqueName, 'C Young' AS Names, '364343' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7213d757' AS Identifier, 'C Bah' AS UniqueName, '' AS Names, '1155538' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd28b53ea' AS Identifier, 'C Bannerman' AS UniqueName, 'Charles Bannerman' AS Names, '4091' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1719,7 +1725,7 @@ SELECT '14198941' AS Identifier, 'CD Mboe' AS UniqueName, '' AS Names, '1276642'
 SELECT 'f5390243' AS Identifier, 'CD McMillan' AS UniqueName, '' AS Names, '37712' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6f049d41' AS Identifier, 'CD Nash' AS UniqueName, 'C Nash' AS Names, '18048' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd465ea3d' AS Identifier, 'CD Thorp' AS UniqueName, '' AS Names, '8030' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '8997299' AS Identifier, 'CDUS Weerasinghe' AS UniqueName, 'Sanjeewa Weerasinghe' AS Names, '50838' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '08997299' AS Identifier, 'CDUS Weerasinghe' AS UniqueName, 'Sanjeewa Weerasinghe' AS Names, '50838' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7b5c6c0b' AS Identifier, 'CD Wallace' AS UniqueName, 'C Wallace' AS Names, '414971' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5e21930b' AS Identifier, 'CD Watson' AS UniqueName, 'Chester Watson' AS Names, '53218' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1ce9b927' AS Identifier, 'CD Wright' AS UniqueName, '' AS Names, '53278' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1764,7 +1770,7 @@ SELECT '798934ea' AS Identifier, 'C Ganapathy' AS UniqueName, '' AS Names, '2876
 SELECT '95a15317' AS Identifier, 'CG Benjamin' AS UniqueName, '' AS Names, '1149157' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8f999ed5' AS Identifier, 'CG Blakely' AS UniqueName, '' AS Names, '597992' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '72230c7d' AS Identifier, 'CG Borde' AS UniqueName, 'Chandu Borde' AS Names, '26962' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'CG Burnett' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '364336' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '35e40720' AS Identifier, 'CG Burnett' AS UniqueName, '' AS Names, '364336' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7ef48834' AS Identifier, 'CG Butts' AS UniqueName, 'Clyde Butts' AS Names, '51241' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '601f58f1' AS Identifier, 'CGD Burger' AS UniqueName, 'Chris Burger' AS Names, '44076' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd178e57e' AS Identifier, 'C George' AS UniqueName, '' AS Names, '1163189' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1897,7 +1903,7 @@ SELECT '00f63bac' AS Identifier, 'CK Singh' AS UniqueName, 'Charran Singh' AS Na
 SELECT 'f6571355' AS Identifier, 'CK Tshuma' AS UniqueName, 'C Tshuma' AS Names, '959823' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '395695ce' AS Identifier, 'C Kyewuta' AS UniqueName, '' AS Names, '1107651' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a990c9c4' AS Identifier, 'C Lamont' AS UniqueName, '' AS Names, '1129522' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '8.5645E+66' AS Identifier, 'Claus Schumacher' AS UniqueName, '' AS Names, '1095719' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '85645e62' AS Identifier, 'Claus Schumacher' AS UniqueName, '' AS Names, '1095719' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '33c26b1c' AS Identifier, 'CL Badcock' AS UniqueName, 'Jack Badcock' AS Names, '4076' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0b130202' AS Identifier, 'CL Cairns' AS UniqueName, '' AS Names, '36597' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd71e33bb' AS Identifier, 'C Leeson' AS UniqueName, 'Leeson, Carly Leeson' AS Names, '1071702' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -1979,7 +1985,7 @@ SELECT 'fd8801db' AS Identifier, 'COC Pearse' AS UniqueName, 'Ormy Pearse' AS Na
 SELECT '1928197a' AS Identifier, 'C Olivier' AS UniqueName, '' AS Names, '595801' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5680f1ad' AS Identifier, 'CO Obuya' AS UniqueName, 'C Obuya' AS Names, '24752' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '170c0116' AS Identifier, 'CO Taitt' AS UniqueName, '' AS Names, '355358' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'CO Thurston' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '639422' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '2964e311' AS Identifier, 'CO Thurston' AS UniqueName, '' AS Names, '639422' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ff722bc8' AS Identifier, 'C Outerbridge' AS UniqueName, '' AS Names, '1063215' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e9987a94' AS Identifier, 'C Overton' AS UniqueName, '' AS Names, '464626' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a541fc41' AS Identifier, 'CO Wright' AS UniqueName, 'Chris Wright' AS Names, '656217' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2007,12 +2013,15 @@ SELECT '724fe132' AS Identifier, 'CPS Chauhan' AS UniqueName, 'Chetan Chauhan' A
 SELECT '4751827a' AS Identifier, 'CP Schofield' AS UniqueName, '' AS Names, '20073' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ab85717b' AS Identifier, 'CP Senanayake' AS UniqueName, 'Charith Senanayake' AS Names, '50426' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a5c2ef8c' AS Identifier, 'CP Simpson' AS UniqueName, '' AS Names, '7743' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '9.6824E+72' AS Identifier, 'CP Tremain' AS UniqueName, 'C Tremain, Tremain, Chris Tremain' AS Names, '553800' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '96824e68' AS Identifier, 'CP Tremain' AS UniqueName, 'C Tremain, Tremain, Chris Tremain' AS Names, '553800' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '89337e1d' AS Identifier, 'CP Wellage' AS UniqueName, '' AS Names, '1156255' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1cfac535' AS Identifier, 'CP Wood' AS UniqueName, 'C Wood' AS Names, '310525' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '28aba384' AS Identifier, 'C Raack' AS UniqueName, '' AS Names, '792135' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'af294a6c' AS Identifier, 'Craig Cachopa' AS UniqueName, 'C Cachopa' AS Names, '355266' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '014a8188' AS Identifier, 'C Ramaswami' AS UniqueName, 'Cotar Ramaswami' AS Names, '33059' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '014a8188' AS Identifier, 'C Ramaswami' AS UniqueName, 'Cotar Ramaswami' AS Names, '33059' AS CricInfoId, 1 AS IsActive
+Go
+
+INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
 SELECT '664189ff' AS Identifier, 'CR Amini' AS UniqueName, '' AS Names, '25053' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '33009991' AS Identifier, 'CR Baker' AS UniqueName, '' AS Names, '345289' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e342e5fb' AS Identifier, 'CR Brathwaite' AS UniqueName, 'Carlos Brathwaite, C Brathwaite' AS Names, '457249' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2022,8 +2031,8 @@ SELECT '342d8ade' AS Identifier, 'CRD Fernando' AS UniqueName, 'D Fernando' AS N
 SELECT '14305d29' AS Identifier, 'CR Douglas' AS UniqueName, '' AS Names, '345331' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd993c121' AS Identifier, 'CR Duncan' AS UniqueName, '' AS Names, '51680' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c96311d4' AS Identifier, 'CR Ervine' AS UniqueName, 'C Ervine' AS Names, '55412' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'CR Foggo' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '23700' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7.965E+49' AS Identifier, 'CR Hemphrey' AS UniqueName, '' AS Names, '256965' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '3e722460' AS Identifier, 'CR Foggo' AS UniqueName, '' AS Names, '23700' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '79650e45' AS Identifier, 'CR Hemphrey' AS UniqueName, '' AS Names, '256965' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'dbd19fb8' AS Identifier, 'C Rice' AS UniqueName, '' AS Names, '1283115' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4c1e18e8' AS Identifier, 'CR Jones' AS UniqueName, '' AS Names, '355736' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'dd639a8c' AS Identifier, 'CR King' AS UniqueName, '' AS Names, '701749' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2047,7 +2056,7 @@ SELECT '4c5d73db' AS Identifier, 'CR Woakes' AS UniqueName, 'Chris Woakes, C Woa
 SELECT 'c81996f4' AS Identifier, 'C Sakamoto' AS UniqueName, '' AS Names, '651221' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2cdce1be' AS Identifier, 'C Sakariya' AS UniqueName, '' AS Names, '1131754' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '02e58a32' AS Identifier, 'C Sawad' AS UniqueName, '' AS Names, '307709' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'CS Baugh' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '51446' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '151e8077' AS Identifier, 'CS Baugh' AS UniqueName, '' AS Names, '51446' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'eb725bc7' AS Identifier, 'C Scholz' AS UniqueName, '' AS Names, '1268916' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd97a6ae8' AS Identifier, 'CS Cowdrey' AS UniqueName, 'Chris Cowdrey' AS Names, '10843' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'afa78c3a' AS Identifier, 'CS Delport' AS UniqueName, 'Cameron Delport, C Delport' AS Names, '322810' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2090,7 +2099,7 @@ SELECT 'a72b14ff' AS Identifier, 'CT Tremlett' AS UniqueName, 'C Tremlett' AS Na
 SELECT 'fdf9c85a' AS Identifier, 'C Udoyi' AS UniqueName, '' AS Names, '24763' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '575ab3ce' AS Identifier, 'CU Jayasinghe' AS UniqueName, 'C Jayasinghe' AS Names, '49287' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '81dfc700' AS Identifier, 'C Uwamahoro' AS UniqueName, '' AS Names, '383862' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'C Valente' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '605576' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '137e7065' AS Identifier, 'C Valente' AS UniqueName, 'CT Valente, Cameron Valente' AS Names, '605576' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '98b974df' AS Identifier, 'C van der Westhuizen' AS UniqueName, '' AS Names, '54640' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'cf71b660' AS Identifier, 'C Veretaki' AS UniqueName, '' AS Names, '1082729' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '04d764f3' AS Identifier, 'CV Gadkari' AS UniqueName, 'Chandrasekhar Gadkari' AS Names, '28751' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2189,7 +2198,7 @@ SELECT '7d1a3ff7' AS Identifier, 'D Bhatta' AS UniqueName, '' AS Names, '1171418
 SELECT 'aea11d1d' AS Identifier, 'D Birrell' AS UniqueName, '' AS Names, '1112214' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7a80ddf2' AS Identifier, 'D Bishoo' AS UniqueName, '' AS Names, '341593' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5ee47383' AS Identifier, 'DB Kotze' AS UniqueName, '' AS Names, '24841' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '1679383' AS Identifier, 'DB Loic' AS UniqueName, '' AS Names, '1286507' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '01679383' AS Identifier, 'DB Loic' AS UniqueName, '' AS Names, '1286507' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '83904270' AS Identifier, 'DBL Powell' AS UniqueName, '' AS Names, '52790' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2199afd4' AS Identifier, 'DB Mealey' AS UniqueName, '' AS Names, '302989' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd03ea7d5' AS Identifier, 'DB Mohinder' AS UniqueName, '' AS Names, '1102968' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2257,7 +2266,7 @@ SELECT 'eba32b12' AS Identifier, 'Delwar Hossain' AS UniqueName, '' AS Names, '2
 SELECT '29c7ca03' AS Identifier, 'DE Malcolm' AS UniqueName, '' AS Names, '16885' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5cbeeb02' AS Identifier, 'Denavon Hayles' AS UniqueName, '' AS Names, '499553' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a19f69c3' AS Identifier, 'Denis Smith' AS UniqueName, 'D Smith' AS Names, '20238' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '611406' AS Identifier, 'Denis Streak' AS UniqueName, '' AS Names, '55759' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '00611406' AS Identifier, 'Denis Streak' AS UniqueName, '' AS Names, '55759' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c57e1893' AS Identifier, 'DES Maxwell' AS UniqueName, '' AS Names, '23799' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e4b24068' AS Identifier, 'Desmond Hicken' AS UniqueName, '' AS Names, '45630' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '68e21fb1' AS Identifier, 'Devender Singh' AS UniqueName, '' AS Names, '1273700' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2299,7 +2308,7 @@ SELECT '6cd74704' AS Identifier, 'Dharmendra Manani' AS UniqueName, '' AS Names,
 SELECT 'd32f938d' AS Identifier, 'Dharminder Pal Rauhia' AS UniqueName, '' AS Names, '1229408' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ea8b65ab' AS Identifier, 'D Hazell' AS UniqueName, '' AS Names, '297079' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0659bd1f' AS Identifier, 'DH Brain' AS UniqueName, 'David Brain' AS Names, '55265' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '6434563' AS Identifier, 'DH Bruwer' AS UniqueName, 'D-H Bruwer' AS Names, '596486' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '06434563' AS Identifier, 'DH Bruwer' AS UniqueName, 'D-H Bruwer' AS Names, '596486' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1d6ff329' AS Identifier, 'D Hemalatha' AS UniqueName, '' AS Names, '961107' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a4fc2798' AS Identifier, 'D Hettiarachchi' AS UniqueName, 'DS Hettiarachchi, Dinuka Hettiarachchi' AS Names, '49128' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f8c72766' AS Identifier, 'D Heyliger' AS UniqueName, '' AS Names, '1061467' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2313,8 +2322,8 @@ SELECT 'a51e6c6e' AS Identifier, 'Diana Baig' AS UniqueName, 'D Baig' AS Names, 
 SELECT '457cab44' AS Identifier, 'D Ibrahim' AS UniqueName, '' AS Names, '1260070' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a009fb86' AS Identifier, 'DI Chunan' AS UniqueName, '' AS Names, '486802' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'bc1c95a2' AS Identifier, 'Dick Young' AS UniqueName, 'RA Young' AS Names, '23536' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'DI Dusabemungu' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1172645' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '770202000000000' AS Identifier, 'D Igihozo' AS UniqueName, '' AS Names, '1199591' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '90e03594' AS Identifier, 'DI Dusabemungu' AS UniqueName, '' AS Names, '1172645' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '770202e9' AS Identifier, 'D Igihozo' AS UniqueName, '' AS Names, '1199591' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6db9ddf9' AS Identifier, 'DI Gower' AS UniqueName, '' AS Names, '13418' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fd67a507' AS Identifier, 'DI Joyce' AS UniqueName, '' AS Names, '24603' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '70166775' AS Identifier, 'Dilawar Hussain' AS UniqueName, '' AS Names, '28092' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2366,7 +2375,7 @@ SELECT '6fc99233' AS Identifier, 'DJ Nash' AS UniqueName, 'Dion Nash' AS Names, 
 SELECT '2c72e1a5' AS Identifier, 'D Joubert' AS UniqueName, '' AS Names, '45777' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f0f543cf' AS Identifier, 'DJ Pagon' AS UniqueName, '' AS Names, '52794' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3fe2db87' AS Identifier, 'DJ Pattinson' AS UniqueName, '' AS Names, '270253' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'DJ Redfern' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '258511' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '8e510697' AS Identifier, 'DJ Redfern' AS UniqueName, '' AS Names, '258511' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd84a2d8e' AS Identifier, 'DJ Reekers' AS UniqueName, '' AS Names, '38261' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '78267084' AS Identifier, 'DJ Richardson' AS UniqueName, 'David Richardson' AS Names, '46978' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '53bee17f' AS Identifier, 'DJS Dottin' AS UniqueName, 'D Dottin' AS Names, '355349' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2391,7 +2400,7 @@ SELECT '94bc776b' AS Identifier, 'D Kalyankrishna' AS UniqueName, '' AS Names, '
 SELECT 'f98c24ec' AS Identifier, 'DK Anefie' AS UniqueName, '' AS Names, '1107680' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '45ca12a7' AS Identifier, 'D Kansonkho' AS UniqueName, '' AS Names, '1163148' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e77e96de' AS Identifier, 'DK Arinaitwe' AS UniqueName, '' AS Names, '26141' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '671398000' AS Identifier, 'DK Butler' AS UniqueName, '' AS Names, '51292' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '671398e3' AS Identifier, 'DK Butler' AS UniqueName, '' AS Names, '51292' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '957819df' AS Identifier, 'DK Dahani' AS UniqueName, '' AS Names, '1217276' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '832b77c6' AS Identifier, 'DKD Warnakulasuriya' AS UniqueName, '' AS Names, '1283175' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3676b91f' AS Identifier, 'D Kegasitswe' AS UniqueName, '' AS Names, '637489' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2439,7 +2448,7 @@ SELECT 'de7d833e' AS Identifier, 'D Madushanka' AS UniqueName, '' AS Names, '793
 SELECT 'a96b36af' AS Identifier, 'D Maisuria' AS UniqueName, '' AS Names, '637478' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '17f344c4' AS Identifier, 'D Massil' AS UniqueName, '' AS Names, '467810' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd5765b55' AS Identifier, 'D Matthews' AS UniqueName, '' AS Names, '594997' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '76653700' AS Identifier, 'DM Benkenstein' AS UniqueName, '' AS Names, '44070' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '766537e2' AS Identifier, 'DM Benkenstein' AS UniqueName, '' AS Names, '44070' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ad46c747' AS Identifier, 'DM Bess' AS UniqueName, 'Dom Bess, D Bess' AS Names, '646847' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1b61a9fa' AS Identifier, 'DM Braat' AS UniqueName, '' AS Names, '257509' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '14b14cd8' AS Identifier, 'DM Bravo' AS UniqueName, '' AS Names, '277472' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2472,7 +2481,7 @@ SELECT '7636b587' AS Identifier, 'D Muhumuza' AS UniqueName, 'Muhumza' AS Names,
 SELECT 'c52de9d9' AS Identifier, 'D Mukarurangwa' AS UniqueName, '' AS Names, '383860' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e78964b8' AS Identifier, 'D Mullan' AS UniqueName, '' AS Names, '1230754' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a5544576' AS Identifier, 'D Murphy' AS UniqueName, '' AS Names, '297524' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'DM Washington' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '53355' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '30e48600' AS Identifier, 'DM Washington' AS UniqueName, 'Dwight Washington' AS Names, '53355' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8d4c29e9' AS Identifier, 'DM Wellham' AS UniqueName, 'Dirk Wellham' AS Names, '8198' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '27d99777' AS Identifier, 'DM Wheeldon' AS UniqueName, '' AS Names, '508447' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f1eb3c73' AS Identifier, 'DMW Rawlins' AS UniqueName, 'D Rawlins' AS Names, '630174' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2535,7 +2544,7 @@ SELECT '9d710afe' AS Identifier, 'DR Flynn' AS UniqueName, 'D Flynn' AS Names, '
 SELECT 'd2763568' AS Identifier, 'DR Gibson' AS UniqueName, '' AS Names, '886203' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '24230db1' AS Identifier, 'DR Hadlee' AS UniqueName, 'Dayle Hadlee' AS Names, '37222' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0ac067e8' AS Identifier, 'DR Hooper' AS UniqueName, '' AS Names, '403335' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '4873820000' AS Identifier, 'DR Jardine' AS UniqueName, 'Douglas Jardine' AS Names, '15481' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '487382e4' AS Identifier, 'DR Jardine' AS UniqueName, 'Douglas Jardine' AS Names, '15481' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '14d0fd35' AS Identifier, 'DR Lockhart' AS UniqueName, '' AS Names, '25098' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '69762509' AS Identifier, 'DR Martyn' AS UniqueName, '' AS Names, '6513' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '879aedd7' AS Identifier, 'DR Melton' AS UniqueName, 'D Melton, Melton' AS Names, '699691' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2619,14 +2628,14 @@ SELECT 'f8c85ddb' AS Identifier, 'DW Allan' AS UniqueName, 'David Allan' AS Name
 SELECT '760fcf65' AS Identifier, 'D Wangmo' AS UniqueName, '' AS Names, '1140099' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a44827b0' AS Identifier, 'DW Begbie' AS UniqueName, 'Denis Begbie' AS Names, '44062' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fbcf6af5' AS Identifier, 'DW Carr' AS UniqueName, 'Douglas Carr' AS Names, '10669' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '9.2256E+70' AS Identifier, 'D Weston' AS UniqueName, '' AS Names, '1046613' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '92256e66' AS Identifier, 'D Weston' AS UniqueName, '' AS Names, '1046613' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '01c72967' AS Identifier, 'DW Fleming' AS UniqueName, 'Damien Fleming' AS Names, '5239' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5f70bb69' AS Identifier, 'DW Gregory' AS UniqueName, 'Dave Gregory' AS Names, '5432' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '870206b3' AS Identifier, 'DW Headley' AS UniqueName, '' AS Names, '14127' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c558317d' AS Identifier, 'DW Hookes' AS UniqueName, 'David Hookes' AS Names, '5696' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'aa8d28ae' AS Identifier, 'D Wiese' AS UniqueName, 'David Wiese' AS Names, '221140' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd0206551' AS Identifier, 'D Williams' AS UniqueName, 'David Williams' AS Names, '53230' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '0' AS Identifier, 'D Wilson' AS UniqueName, 'Don Wilson' AS Names, '22469' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '0e759963' AS Identifier, 'D Wilson' AS UniqueName, 'Don Wilson' AS Names, '22469' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4b685e2d' AS Identifier, 'DW Lawrence' AS UniqueName, 'Dan Lawrence, D Lawrence, Lawrence' AS Names, '641423' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'daab3d80' AS Identifier, 'DWO Morgan' AS UniqueName, '' AS Names, '217522' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'aecec4c8' AS Identifier, 'DW Randall' AS UniqueName, 'Derek Randall' AS Names, '19327' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2909,7 +2918,7 @@ SELECT '7d422928' AS Identifier, 'Fahim Muntasir' AS UniqueName, '' AS Names, '5
 SELECT '1215ec4b' AS Identifier, 'FA Iredale' AS UniqueName, 'Frank Iredale' AS Names, '5976' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ed0bc503' AS Identifier, 'Faisal Afridi' AS UniqueName, '' AS Names, '40109' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '89ffd337' AS Identifier, 'Faisal Hossain' AS UniqueName, '' AS Names, '55889' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '2672690' AS Identifier, 'Faisal Iqbal' AS UniqueName, '' AS Names, '40088' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '267269e1' AS Identifier, 'Faisal Iqbal' AS UniqueName, '' AS Names, '40088' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b0ef0346' AS Identifier, 'Faisal Javed' AS UniqueName, 'Faisal Javid Khan' AS Names, '40123' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a7553f15' AS Identifier, 'Faisal Khan' AS UniqueName, '' AS Names, '794749' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ad5342dc' AS Identifier, 'Faisal Mubashir' AS UniqueName, '' AS Names, '537048' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -2982,7 +2991,7 @@ SELECT '2c535f08' AS Identifier, 'F Damiao Couana' AS UniqueName, '' AS Names, '
 SELECT '220e25a4' AS Identifier, 'F de Wet' AS UniqueName, '' AS Names, '44930' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '400e2d4d' AS Identifier, 'FDM Karunaratne' AS UniqueName, 'D Karunaratne' AS Names, '227772' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3355b542' AS Identifier, 'F du Plessis' AS UniqueName, 'Faf du Plessis' AS Names, '44828' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '5.3964E+85' AS Identifier, 'FE Allan' AS UniqueName, 'Frank Allan' AS Names, '3950' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '53964e81' AS Identifier, 'FE Allan' AS UniqueName, 'Frank Allan' AS Names, '3950' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'dc650363' AS Identifier, 'FE Carava' AS UniqueName, '' AS Names, '1155505' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd46666fa' AS Identifier, 'FE Fisher' AS UniqueName, 'Eric Fisher' AS Names, '36998' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b1c9d04c' AS Identifier, 'F Ekalunga' AS UniqueName, '' AS Names, '332862' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3012,7 +3021,10 @@ SELECT '2a6f2b3d' AS Identifier, 'Fikri Rosdi' AS UniqueName, '' AS Names, '4021
 SELECT '4f034a50' AS Identifier, 'FIN Khushi' AS UniqueName, 'F Khushi' AS Names, '866505' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '14f0a5e3' AS Identifier, 'F Irakoze' AS UniqueName, '' AS Names, '1172643' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7c7fe471' AS Identifier, 'Fitratullah Khawari' AS UniqueName, '' AS Names, '568137' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT 'd2ec068c' AS Identifier, 'Fitri Sham' AS UniqueName, '' AS Names, '1037565' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT 'd2ec068c' AS Identifier, 'Fitri Sham' AS UniqueName, '' AS Names, '1037565' AS CricInfoId, 1 AS IsActive
+Go
+
+INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
 SELECT 'c7c60bc5' AS Identifier, 'Fiza' AS UniqueName, 'Fiza Javed' AS Names, '1213626' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '789703db' AS Identifier, 'F Jaary' AS UniqueName, 'Fidel Jaary' AS Names, '342503' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd67fff42' AS Identifier, 'FJ Burton' AS UniqueName, 'Fred Burton' AS Names, '4250' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3104,7 +3116,7 @@ SELECT '96d71afe' AS Identifier, 'FX Maurice' AS UniqueName, 'Francis Maurice' A
 SELECT 'c15e2193' AS Identifier, 'FY Fazal' AS UniqueName, 'F Fazal' AS Names, '28671' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a4af5528' AS Identifier, 'GA Abood' AS UniqueName, '' AS Names, '226132' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e2caec46' AS Identifier, 'GA Bartlett' AS UniqueName, 'G Bartlett' AS Names, '857973' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '1746639' AS Identifier, 'GA Bartlett (2)' AS UniqueName, 'Gary Bartlett' AS Names, '36288' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '01746639' AS Identifier, 'GA Bartlett (2)' AS UniqueName, 'Gary Bartlett' AS Names, '36288' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3ee510c5' AS Identifier, 'GA Briant' AS UniqueName, 'Gavin Briant' AS Names, '55271' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '692046d5' AS Identifier, 'GA Chevalier' AS UniqueName, 'Grahame Chevalier' AS Names, '44438' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'aa160e8f' AS Identifier, 'GA Cope' AS UniqueName, 'Geoff Cope' AS Names, '10809' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3194,7 +3206,7 @@ SELECT '77e373d8' AS Identifier, 'GC White' AS UniqueName, 'Gordon White' AS Nam
 SELECT '05de1a5a' AS Identifier, 'GC Wilson' AS UniqueName, 'G Wilson' AS Names, '24609' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e969e580' AS Identifier, 'GD Arta' AS UniqueName, '' AS Names, '1082740' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ed32b35e' AS Identifier, 'GD Barlow' AS UniqueName, 'Graham Barlow' AS Names, '8990' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'GD Burrows' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1094352' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '043e9623' AS Identifier, 'GD Burrows' AS UniqueName, '' AS Names, '1094352' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6f796e3c' AS Identifier, 'GD Campbell' AS UniqueName, 'Greg Campbell' AS Names, '4523' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fef4b937' AS Identifier, 'GD Cross' AS UniqueName, '' AS Names, '11743' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5b8fffb4' AS Identifier, 'GD Drummond' AS UniqueName, '' AS Names, '295644' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3265,7 +3277,7 @@ SELECT '44872f55' AS Identifier, 'G Gunn' AS UniqueName, 'George Gunn' AS Names,
 SELECT '450f6fa6' AS Identifier, 'GG Wagg' AS UniqueName, 'G Wagg' AS Names, '22559' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0f21680d' AS Identifier, 'GG White' AS UniqueName, 'G White, White' AS Names, '23513' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '850ca3b6' AS Identifier, 'Ghaffar Kazmi' AS UniqueName, '' AS Names, '40309' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Ghazanfar Ali' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1156629' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '9951e469' AS Identifier, 'Ghazanfar Ali' AS UniqueName, '' AS Names, '1156629' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6b179b0b' AS Identifier, 'Ghazanfar Iqbal' AS UniqueName, '' AS Names, '436992' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '33686325' AS Identifier, 'GH Black' AS UniqueName, '' AS Names, '366752' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f390904d' AS Identifier, 'GH Bodi' AS UniqueName, '' AS Names, '44089' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3307,10 +3319,10 @@ SELECT '5056011d' AS Identifier, 'GJ Bailey' AS UniqueName, 'G Bailey, George Ba
 SELECT '5ac8f17b' AS Identifier, 'GJ Batty' AS UniqueName, 'G Batty, Batty' AS Names, '9042' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a0fb40e5' AS Identifier, 'GJ Bonnor' AS UniqueName, 'George Bonnor' AS Names, '4167' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c54a4255' AS Identifier, 'GJ Cosier' AS UniqueName, 'Gary Cosier' AS Names, '4629' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'GJ Crocker' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '55321' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '809e3533' AS Identifier, 'GJ Crocker' AS UniqueName, 'Gary Crocker' AS Names, '55321' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '31ad5973' AS Identifier, 'GJ Davidson' AS UniqueName, '' AS Names, '326117' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '33b3d2df' AS Identifier, 'GJ Delany' AS UniqueName, '' AS Names, '1099379' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '4381402' AS Identifier, 'GJ Gibbs' AS UniqueName, '' AS Names, '646007' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '04381402' AS Identifier, 'GJ Gibbs' AS UniqueName, '' AS Names, '646007' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9fe57212' AS Identifier, 'GJ Gilmour' AS UniqueName, 'Gary Gilmour' AS Names, '5396' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '67954d19' AS Identifier, 'GJ Harte' AS UniqueName, '' AS Names, '501848' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4d3097d8' AS Identifier, 'GJ Hopkins' AS UniqueName, '' AS Names, '37248' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3389,7 +3401,7 @@ SELECT 'b06d95da' AS Identifier, 'GM Thomson' AS UniqueName, '' AS Names, '45014
 SELECT 'f07443f1' AS Identifier, 'GM Turner' AS UniqueName, 'Glenn Turner' AS Names, '38622' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '732ce0c2' AS Identifier, 'G Mubiru' AS UniqueName, '' AS Names, '1107654' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e53facfd' AS Identifier, 'GM Wood' AS UniqueName, 'Graeme Wood' AS Names, '8251' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '5937189' AS Identifier, 'GN Edwards' AS UniqueName, 'Jock Edwards' AS Names, '36952' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '05937189' AS Identifier, 'GN Edwards' AS UniqueName, 'Jock Edwards' AS Names, '36952' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3f86a380' AS Identifier, 'GN Francis' AS UniqueName, 'George Francis' AS Names, '51794' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '69caf2be' AS Identifier, 'G Ngegba' AS UniqueName, '' AS Names, '1089824' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '29487a6d' AS Identifier, 'G Noblet' AS UniqueName, 'Geff Noblet' AS Names, '6933' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3500,7 +3512,7 @@ SELECT 'a8927068' AS Identifier, 'Guyanand Sukdeo' AS UniqueName, '' AS Names, '
 SELECT 'a4bcaba7' AS Identifier, 'G Venkateswaran' AS UniqueName, '' AS Names, '1198921' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5c30d455' AS Identifier, 'G Voll' AS UniqueName, 'Georgia Voll' AS Names, '1215360' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9aa19b16' AS Identifier, 'GWA Chubb' AS UniqueName, 'Geoff Chubb' AS Names, '44441' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'G Wade' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '763311' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '469e4920' AS Identifier, 'G Wade' AS UniqueName, '' AS Names, '763311' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '42a05795' AS Identifier, 'GW Aldridge' AS UniqueName, '' AS Names, '36187' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f0b4e47d' AS Identifier, 'G Wareham' AS UniqueName, 'Georgia Wareham, Wareham' AS Names, '946057' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '348195ea' AS Identifier, 'GW Flower' AS UniqueName, '' AS Names, '55429' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3539,12 +3551,12 @@ SELECT '3f947610' AS Identifier, 'HA Musgrove' AS UniqueName, 'Harry Musgrove' A
 SELECT '557550a4' AS Identifier, 'Hamza Dar' AS UniqueName, '' AS Names, '1178902' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6795e49f' AS Identifier, 'Hamza Niyaz' AS UniqueName, '' AS Names, '1208768' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '34cb2f69' AS Identifier, 'Hamza Tahir' AS UniqueName, '' AS Names, '751151' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Hamza Tariq' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '414397' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '82e81007' AS Identifier, 'Hamza Tariq' AS UniqueName, '' AS Names, '414397' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8d70ae3b' AS Identifier, 'Han Guangze' AS UniqueName, '' AS Names, '587806' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '97b89daa' AS Identifier, 'Hanif Mohammad' AS UniqueName, '' AS Names, '40373' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7b70c988' AS Identifier, 'Han Junhui' AS UniqueName, '' AS Names, '934532' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'cd7134f5' AS Identifier, 'Han Lili' AS UniqueName, '' AS Names, '587774' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Hannan Sarkar' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '55915' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '608e1581' AS Identifier, 'Hannan Sarkar' AS UniqueName, '' AS Names, '55915' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '41299a4e' AS Identifier, 'Hannes van Vuuren' AS UniqueName, '' AS Names, '1179495' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fe5bf042' AS Identifier, 'Hanumant Singh' AS UniqueName, '' AS Names, '29260' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4a25c894' AS Identifier, 'HAPW Jayawardene' AS UniqueName, 'P Jayawardene' AS Names, '49236' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3601,7 +3613,7 @@ SELECT '5ea51c25' AS Identifier, 'Hazratullah' AS UniqueName, 'Hazratullah Zazai
 SELECT '1a14186a' AS Identifier, 'HB Cameron' AS UniqueName, 'Jock Cameron' AS Names, '44419' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fc32800d' AS Identifier, 'HB Cave' AS UniqueName, 'Harry Cave' AS Names, '36600' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c9ffb93d' AS Identifier, 'H Bhullar' AS UniqueName, '' AS Names, '1196288' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '852820000' AS Identifier, 'H Birkett' AS UniqueName, '' AS Names, '702609' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '852820e3' AS Identifier, 'H Birkett' AS UniqueName, '' AS Names, '702609' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd26858c0' AS Identifier, 'HB Kayondo' AS UniqueName, '' AS Names, '821647' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '10f4518c' AS Identifier, 'HB Ralalage' AS UniqueName, '' AS Names, '530202' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4090226d' AS Identifier, 'H Brown' AS UniqueName, '' AS Names, '877461' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3648,7 +3660,7 @@ SELECT '71e2b411' AS Identifier, 'Henry Graham' AS UniqueName, 'H Graham, Harry 
 SELECT '761e927f' AS Identifier, 'Henry Warner' AS UniqueName, '' AS Names, '53295' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0ba9de33' AS Identifier, 'HER Tyler' AS UniqueName, '' AS Names, '1082762' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd9b3ff0a' AS Identifier, 'HE Topp' AS UniqueName, '' AS Names, '1215183' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '9.948E+265' AS Identifier, 'HE van der Dussen' AS UniqueName, 'R van der Dussen' AS Names, '337790' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '9948e262' AS Identifier, 'HE van der Dussen' AS UniqueName, 'R van der Dussen' AS Names, '337790' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '96786fb6' AS Identifier, 'HE Whelan' AS UniqueName, '' AS Names, '54908' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1b89d09e' AS Identifier, 'HF Boyle' AS UniqueName, 'Harry Boyle' AS Names, '4183' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0d38ab25' AS Identifier, 'H Fennell' AS UniqueName, '' AS Names, '307184' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3693,7 +3705,7 @@ SELECT '5e71e5cc' AS Identifier, 'Hiba Shamshad' AS UniqueName, '' AS Names, '11
 SELECT '742c4932' AS Identifier, 'HI Ebeling' AS UniqueName, 'Hans Ebeling' AS Names, '5119' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f78aa227' AS Identifier, 'Hilal Ahmad' AS UniqueName, '' AS Names, '1156474' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0174b455' AS Identifier, 'Himanshu Dutta' AS UniqueName, 'H Dutta' AS Names, '960359' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Hina Hussain' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1196332' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '6501e421' AS Identifier, 'Hina Hussain' AS UniqueName, '' AS Names, '1196332' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f9e21b08' AS Identifier, 'Hiralal Raut' AS UniqueName, '' AS Names, '1099903' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a1cec846' AS Identifier, 'H Ironmonger' AS UniqueName, 'Bert Ironmonger' AS Names, '5977' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '25d642b2' AS Identifier, 'Hisham Mirza' AS UniqueName, '' AS Names, '319599' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3808,7 +3820,7 @@ SELECT '725c73f2' AS Identifier, 'H Rashid' AS UniqueName, '' AS Names, '346529'
 SELECT '8da34e31' AS Identifier, 'HR Bernard' AS UniqueName, '' AS Names, '755017' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '879cf1dd' AS Identifier, 'HR Bhamu' AS UniqueName, '' AS Names, '1143142' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'dbdfdc66' AS Identifier, 'HR Bromley-Davenport' AS UniqueName, 'Hugh Bromley-Davenport' AS Names, '9237' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '5566241' AS Identifier, 'HR Butt' AS UniqueName, 'Harry Butt' AS Names, '9334' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '05566241' AS Identifier, 'HR Butt' AS UniqueName, 'Harry Butt' AS Names, '9334' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0a7c6649' AS Identifier, 'HRC Came' AS UniqueName, 'H Came' AS Names, '1042145' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '99528b4b' AS Identifier, 'HR Cooper' AS UniqueName, '' AS Names, '707111' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'bbe68b55' AS Identifier, 'HRD Adair' AS UniqueName, '' AS Names, '1026351' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3951,7 +3963,7 @@ SELECT 'b68a30f0' AS Identifier, 'IG Butler' AS UniqueName, 'I Butler' AS Names,
 SELECT '4167f30b' AS Identifier, 'IG Holland' AS UniqueName, 'I Holland' AS Names, '334340' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f8e48647' AS Identifier, 'IG McPeake' AS UniqueName, '' AS Names, '599385' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd0111079' AS Identifier, 'IGTR Kumara' AS UniqueName, 'Kumara' AS Names, '1190202' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'IG Warne' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '638821' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '75e77070' AS Identifier, 'IG Warne' AS UniqueName, '' AS Names, '638821' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a1b1e3c2' AS Identifier, 'IH Lock' AS UniqueName, '' AS Names, '6264' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '54725e8b' AS Identifier, 'IH Romaine' AS UniqueName, '' AS Names, '23725' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5aeab54c' AS Identifier, 'Ihsanullah' AS UniqueName, 'Ihsanullah Janat' AS Names, '703323' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -3989,7 +4001,7 @@ SELECT 'f67c958d' AS Identifier, 'Ikram Alikhil' AS UniqueName, 'I Ali Khil' AS 
 SELECT '03c98aa6' AS Identifier, 'Ilenia Sims' AS UniqueName, '' AS Names, '879287' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c1cd91c3' AS Identifier, 'IL Howell' AS UniqueName, '' AS Names, '45454' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e6e847f9' AS Identifier, 'Ilhwan Seo' AS UniqueName, '' AS Names, '781137' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'I Liyanage' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '429668' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '826e1017' AS Identifier, 'I Liyanage' AS UniqueName, 'IMG Liyanage' AS Names, '429668' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1ca47810' AS Identifier, 'IL Mendonca' AS UniqueName, 'Ivor Mendonca' AS Names, '52433' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '42a01b52' AS Identifier, 'Ilyas Ahmed' AS UniqueName, '' AS Names, '1192939' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5cae5331' AS Identifier, 'Ilyas Gull' AS UniqueName, '' AS Names, '24227' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4012,7 +4024,10 @@ SELECT 'c10747c3' AS Identifier, 'Imran Arif' AS UniqueName, '' AS Names, '10936
 SELECT 'e95eb01b' AS Identifier, 'Imran Ashraf' AS UniqueName, '' AS Names, '1058209' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '82d8aa2e' AS Identifier, 'Imran Awan' AS UniqueName, '' AS Names, '25878' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8a6602c4' AS Identifier, 'Imran Azam' AS UniqueName, '' AS Names, '917107' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '6464a804' AS Identifier, 'Imran Bulbulia' AS UniqueName, '' AS Names, '1159861' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '6464a804' AS Identifier, 'Imran Bulbulia' AS UniqueName, '' AS Names, '1159861' AS CricInfoId, 1 AS IsActive
+Go
+
+INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
 SELECT 'cc3fb3b3' AS Identifier, 'Imran Butt' AS UniqueName, '' AS Names, '1122396' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '72683b68' AS Identifier, 'Imran Butt (2)' AS UniqueName, 'I Butt' AS Names, '598905' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '480ed517' AS Identifier, 'Imran Farhat' AS UniqueName, '' AS Names, '40582' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4042,7 +4057,7 @@ SELECT '5fbe14fc' AS Identifier, 'Imrul Kayes' AS UniqueName, 'I Kayes' AS Names
 SELECT '6f45f4b6' AS Identifier, 'IM Sinclair' AS UniqueName, 'Ian Sinclair' AS Names, '38391' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5a12c5fe' AS Identifier, 'Imtiaz Ahmed' AS UniqueName, '' AS Names, '40565' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '138bf5c6' AS Identifier, 'Imtiaz Ali' AS UniqueName, 'I Ali' AS Names, '51102' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Imtiaz Hossain' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '55929' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '003e7738' AS Identifier, 'Imtiaz Hossain' AS UniqueName, '' AS Names, '55929' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a247c3b6' AS Identifier, 'Imtiaz Iqbal' AS UniqueName, '' AS Names, '916499' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2f37396f' AS Identifier, 'I Muhawenimana' AS UniqueName, '' AS Names, '1172638' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8d62fc14' AS Identifier, 'IM Vaghela' AS UniqueName, '' AS Names, '1283439' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4167,7 +4182,7 @@ SELECT '249abedf' AS Identifier, 'Jalaj S Saxena' AS UniqueName, 'J Saxena' AS N
 SELECT 'f6aff671' AS Identifier, 'Jalaluddin' AS UniqueName, 'Jalal-ud-Din' AS Names, '40872' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a4a53adf' AS Identifier, 'J Albin' AS UniqueName, '' AS Names, '1267508' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f2ab7a69' AS Identifier, 'JA Leaning' AS UniqueName, 'J Leaning' AS Names, '517249' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'J Allen' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1282072' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '20e02728' AS Identifier, 'J Allen' AS UniqueName, '' AS Names, '1282072' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7d5e0b78' AS Identifier, 'J Allenby' AS UniqueName, '' AS Names, '4068' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8b6e2225' AS Identifier, 'JA Maclean' AS UniqueName, 'John Maclean' AS Names, '6452' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c7105dab' AS Identifier, 'JA McCollum' AS UniqueName, 'J McCollum' AS Names, '470917' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4228,7 +4243,7 @@ SELECT 'e15faa51' AS Identifier, 'Javed Omar' AS UniqueName, 'J Omar' AS Names, 
 SELECT '0af4a90b' AS Identifier, 'J Avendano' AS UniqueName, 'JJ Avendano, Justin Avendano' AS Names, '1125715' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd921449d' AS Identifier, 'Javeria Khan' AS UniqueName, 'J Khan' AS Names, '346680' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'bf8c8572' AS Identifier, 'Javeria Rauf' AS UniqueName, '' AS Names, '572648' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '6989091' AS Identifier, 'Javid Patel' AS UniqueName, '' AS Names, '1089813' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '06989091' AS Identifier, 'Javid Patel' AS UniqueName, '' AS Names, '1089813' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6f9a5dde' AS Identifier, 'J Avok' AS UniqueName, '' AS Names, '1093512' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5f2a4e3e' AS Identifier, 'Jawad Mir' AS UniqueName, '' AS Names, '917105' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5117fa92' AS Identifier, 'Jawad Muhammad' AS UniqueName, '' AS Names, '1155618' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4266,7 +4281,7 @@ SELECT 'e5218454' AS Identifier, 'JB Lintott' AS UniqueName, 'J Lintott, Lintott
 SELECT 'e545c8b0' AS Identifier, 'JB Mortimore' AS UniqueName, 'John Mortimore' AS Names, '17111' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7bf606c6' AS Identifier, 'JB Nero' AS UniqueName, 'J Nero' AS Names, '55174' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7c503806' AS Identifier, 'J Botha' AS UniqueName, 'Johan Botha' AS Names, '44149' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '9311634' AS Identifier, 'JB Plimsoll' AS UniqueName, 'Jack Plimsoll' AS Names, '46765' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '09311634' AS Identifier, 'JB Plimsoll' AS UniqueName, 'Jack Plimsoll' AS Names, '46765' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6a685375' AS Identifier, 'JB Reva' AS UniqueName, 'J Reva' AS Names, '332978' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1befb550' AS Identifier, 'J Brewah' AS UniqueName, '' AS Names, '346564' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ce837109' AS Identifier, 'J Briggs' AS UniqueName, 'Johnny Briggs' AS Names, '9223' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4348,7 +4363,7 @@ SELECT 'b1d5b43c' AS Identifier, 'JD Smith' AS UniqueName, '' AS Names, '262161'
 SELECT '9219eff0' AS Identifier, 'JDS Neesham' AS UniqueName, 'Neesham, J Neesham' AS Names, '355269' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8e6cb06c' AS Identifier, 'JD Sole' AS UniqueName, '' AS Names, '599399' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1e66c162' AS Identifier, 'JD Unadkat' AS UniqueName, 'J Unadkat' AS Names, '390484' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '136848000000' AS Identifier, 'J Dunn' AS UniqueName, '' AS Names, '302856' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '136848e6' AS Identifier, 'J Dunn' AS UniqueName, '' AS Names, '302856' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '511299c1' AS Identifier, 'JD Ward' AS UniqueName, '' AS Names, '8436' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd786a8a1' AS Identifier, 'JD Warner' AS UniqueName, 'J Warner' AS Names, '782035' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f1c61793' AS Identifier, 'JD Wildermuth' AS UniqueName, 'Wildermuth, Jack Wildermuth' AS Names, '570854' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4372,7 +4387,7 @@ SELECT '9835bd79' AS Identifier, 'JEG Logan' AS UniqueName, '' AS Names, '767447
 SELECT 'ec666142' AS Identifier, 'JEI Prasad' AS UniqueName, '' AS Names, '1170049' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1f843293' AS Identifier, 'JE McConnon' AS UniqueName, 'Jim McConnon' AS Names, '16961' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '45d6354a' AS Identifier, 'JE Mills' AS UniqueName, 'Jackie Mills' AS Names, '37721' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'JE Morris' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '17102' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '204e3952' AS Identifier, 'JE Morris' AS UniqueName, '' AS Names, '17102' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '91bf6c14' AS Identifier, 'Jeongyoon Kim' AS UniqueName, '' AS Names, '779255' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ab126ea8' AS Identifier, 'JE Pitcher' AS UniqueName, '' AS Names, '379301' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9e91eac2' AS Identifier, 'JEP McMaster' AS UniqueName, 'Emile McMaster' AS Names, '16989' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4423,7 +4438,7 @@ SELECT '913b4b9f' AS Identifier, 'J Grassi' AS UniqueName, '' AS Names, '1005267
 SELECT 'a336b0fe' AS Identifier, 'J Gray' AS UniqueName, '' AS Names, '706435' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '11ff23e3' AS Identifier, 'J Groves' AS UniqueName, '' AS Names, '1184988' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9531f0b5' AS Identifier, 'JG Thomas' AS UniqueName, 'Greg Thomas' AS Names, '21512' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '9.4734E+84' AS Identifier, 'JG Walker' AS UniqueName, 'Walker' AS Names, '509461' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '94734e80' AS Identifier, 'JG Walker' AS UniqueName, 'Walker' AS Names, '509461' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f3e8ad66' AS Identifier, 'JG Wright' AS UniqueName, 'John Wright' AS Names, '38757' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '67187dc6' AS Identifier, 'JH Anderson' AS UniqueName, 'Biddy Anderson' AS Names, '43933' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a8473c4a' AS Identifier, 'J Hansrod' AS UniqueName, '' AS Names, '586029' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4447,7 +4462,7 @@ SELECT 'bfe1c25f' AS Identifier, 'J Hewitt' AS UniqueName, '' AS Names, '691815'
 SELECT 'eb7153a0' AS Identifier, 'JH Hampshire' AS UniqueName, '' AS Names, '14024' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '38970358' AS Identifier, 'J Hicks' AS UniqueName, 'JC Hicks, Jodie Hicks' AS Names, '812159' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5481bd91' AS Identifier, 'J Hill' AS UniqueName, '' AS Names, '1082763' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'J Hirschi' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1178912' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '583e7690' AS Identifier, 'J Hirschi' AS UniqueName, '' AS Names, '1178912' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7cc15633' AS Identifier, 'JHK Adams' AS UniqueName, 'J Adams' AS Names, '8491' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '86dc8f2e' AS Identifier, 'JH Kallis' AS UniqueName, 'J Kallis' AS Names, '45789' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7370ca3d' AS Identifier, 'JH Kiani' AS UniqueName, '' AS Names, '1082766' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4494,7 +4509,7 @@ SELECT '344c6d55' AS Identifier, 'JJ Carson' AS UniqueName, '' AS Names, '114510
 SELECT '6ae9c751' AS Identifier, 'JJ Celestine' AS UniqueName, '' AS Names, '216811' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1417ba2f' AS Identifier, 'JJC Lawson' AS UniqueName, '' AS Names, '52413' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '58c481c6' AS Identifier, 'JJ Cobb' AS UniqueName, 'Cobb' AS Names, '308408' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'JJ Crowe' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '36620' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '2e760301' AS Identifier, 'JJ Crowe' AS UniqueName, 'Jeff Crowe' AS Names, '36620' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0162e9c5' AS Identifier, 'JJ Dell' AS UniqueName, '' AS Names, '857985' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fc80e7a2' AS Identifier, 'J Jensen' AS UniqueName, '' AS Names, '278489' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '90d2084a' AS Identifier, 'JJ Ferris' AS UniqueName, 'J.J. Ferris' AS Names, '5225' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4747,7 +4762,7 @@ SELECT '72f6c5fb' AS Identifier, 'JR Hammond' AS UniqueName, 'Jeff Hammond' AS N
 SELECT '2ac1cf0d' AS Identifier, 'JR Hansen' AS UniqueName, '' AS Names, '420339' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '03806cf8' AS Identifier, 'JR Hazlewood' AS UniqueName, 'Josh Hazlewood, J Hazlewood' AS Names, '288284' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1989cfbd' AS Identifier, 'JR Hodges' AS UniqueName, 'John Hodges' AS Names, '5670' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '2.498E+166' AS Identifier, 'JR Hopes' AS UniqueName, '' AS Names, '5702' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '2498e163' AS Identifier, 'JR Hopes' AS UniqueName, '' AS Names, '5702' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '07793daf' AS Identifier, 'JR Lennox' AS UniqueName, '' AS Names, '1206769' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6219c509' AS Identifier, 'JR Mason' AS UniqueName, 'Jack Mason' AS Names, '16933' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'aa84075f' AS Identifier, 'JRM Bassett-Graham' AS UniqueName, '' AS Names, '434830' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4767,7 +4782,7 @@ SELECT '59fff843' AS Identifier, 'JR Winslade' AS UniqueName, 'J Winslade' AS Na
 SELECT 'd0444261' AS Identifier, 'J Ryder' AS UniqueName, 'Jack Ryder' AS Names, '7416' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2b944fb7' AS Identifier, 'JS Ababu' AS UniqueName, '' AS Names, '24768' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9123ee40' AS Identifier, 'J Sadler' AS UniqueName, '' AS Names, '503832' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'J Sainda' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1182757' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '697e5758' AS Identifier, 'J Sainda' AS UniqueName, '' AS Names, '1182757' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1e78c51c' AS Identifier, 'J Sebanja' AS UniqueName, '' AS Names, '308446' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '91bd2aef' AS Identifier, 'J Selby' AS UniqueName, 'John Selby' AS Names, '20102' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2fbb29a8' AS Identifier, 'JSE Price' AS UniqueName, 'John Price' AS Names, '18616' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4910,7 +4925,7 @@ SELECT 'fa9fdefa' AS Identifier, 'KA Green' AS UniqueName, '' AS Names, '1119573
 SELECT 'bcd1f525' AS Identifier, 'KA Heffernan' AS UniqueName, '' AS Names, '1074203' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ed992ec1' AS Identifier, 'K Ahir' AS UniqueName, '' AS Names, '1159870' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c59d8f8a' AS Identifier, 'KA Hope' AS UniqueName, 'K Hope' AS Names, '443150' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Kainat Imtiaz' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '361856' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '9714e764' AS Identifier, 'Kainat Imtiaz' AS UniqueName, '' AS Names, '361856' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1ccd4054' AS Identifier, 'Kainat Qazi' AS UniqueName, '' AS Names, '1184541' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '68c56d09' AS Identifier, 'KA Jamieson' AS UniqueName, 'K Jamieson' AS Names, '625960' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '78eb4223' AS Identifier, 'KAJ Roach' AS UniqueName, 'Roach, K Roach' AS Names, '230553' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -4922,7 +4937,7 @@ SELECT '8f30d191' AS Identifier, 'KA Levick' AS UniqueName, '' AS Names, '515904
 SELECT '6b07035d' AS Identifier, 'K Alleyne' AS UniqueName, '' AS Names, '1264431' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0b60eb09' AS Identifier, 'KA Maharaj' AS UniqueName, 'Maharaj, K Maharaj' AS Names, '267724' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6926399e' AS Identifier, 'Kamalesh Thakur' AS UniqueName, '' AS Names, '1142512' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Kamal Merchant' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '41053' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '78e46415' AS Identifier, 'Kamal Merchant' AS UniqueName, '' AS Names, '41053' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '96bb4af9' AS Identifier, 'KAM Corbin' AS UniqueName, 'Kyle Corbin' AS Names, '332187' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ff077124' AS Identifier, 'Kamran Akmal' AS UniqueName, 'K Akmal' AS Names, '41028' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '35f4cf7e' AS Identifier, 'Kamran Ghulam' AS UniqueName, 'K Ghulam' AS Names, '623636' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -5012,7 +5027,10 @@ SELECT '7fb32e5b' AS Identifier, 'KD Mills' AS UniqueName, 'K Mills' AS Names, '
 SELECT '365229a8' AS Identifier, 'K Doriga' AS UniqueName, '' AS Names, '646173' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f9b9883f' AS Identifier, 'K Dorji' AS UniqueName, '' AS Names, '1208994' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6ce9da23' AS Identifier, 'KD Perrin' AS UniqueName, 'Kim Perrin' AS Names, '7267' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT 'bf64dc29' AS Identifier, 'KD Petersen' AS UniqueName, '' AS Names, '485676' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT 'bf64dc29' AS Identifier, 'KD Petersen' AS UniqueName, '' AS Names, '485676' AS CricInfoId, 1 AS IsActive
+Go
+
+INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
 SELECT 'd5ae21a2' AS Identifier, 'KD Shah' AS UniqueName, 'Shah, K Shah' AS Names, '401537' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a0fdf513' AS Identifier, 'KDU Prabodhani' AS UniqueName, 'U Prabodhani' AS Names, '335236' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '71ae5369' AS Identifier, 'KD Walters' AS UniqueName, 'Doug Walters' AS Names, '8151' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -5099,7 +5117,7 @@ SELECT '723ca856' AS Identifier, 'Khizer Ahmed' AS UniqueName, '' AS Names, '118
 SELECT '5b8c830e' AS Identifier, 'KH Pandya' AS UniqueName, 'K Pandya' AS Names, '471342' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c4e73ff1' AS Identifier, 'KH Prajapati' AS UniqueName, '' AS Names, '1276719' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e42dff5f' AS Identifier, 'KHRK Fernando' AS UniqueName, '' AS Names, '48967' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Khurram Chohan' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '41224' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '796e4140' AS Identifier, 'Khurram Chohan' AS UniqueName, 'K Chohan' AS Names, '41224' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ae6746e0' AS Identifier, 'Khurram Khan' AS UniqueName, 'K Khan' AS Names, '25589' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '82c78845' AS Identifier, 'Khurram Manzoor' AS UniqueName, 'K Manzoor' AS Names, '41140' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '07ff32f5' AS Identifier, 'Khurram Nawaz' AS UniqueName, '' AS Names, '1077309' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -5255,7 +5273,7 @@ SELECT 'f95e48fe' AS Identifier, 'K Pope' AS UniqueName, '' AS Names, '805403' A
 SELECT '39f01cdb' AS Identifier, 'KP Pietersen' AS UniqueName, 'K Pietersen' AS Names, '19296' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '644bf4ad' AS Identifier, 'K Pulley' AS UniqueName, '' AS Names, '1072864' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '91bbd893' AS Identifier, 'KP Walmsley' AS UniqueName, 'Kerry Walmsley' AS Names, '38740' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'K Qureshi' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1190977' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '063e8671' AS Identifier, 'K Qureshi' AS UniqueName, '' AS Names, '1190977' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e62dd25d' AS Identifier, 'K Rabada' AS UniqueName, 'Rabada' AS Names, '550215' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c24bfe4a' AS Identifier, 'K Rai Singh' AS UniqueName, 'Kanwar Rai Singh' AS Names, '33009' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '321c980e' AS Identifier, 'K Ramharack' AS UniqueName, 'Ramharack' AS Names, '769517' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -5612,7 +5630,7 @@ SELECT 'debb1c34' AS Identifier, 'LP Mullapudi' AS UniqueName, '' AS Names, '128
 SELECT '93cc9718' AS Identifier, 'L Poobalan' AS UniqueName, '' AS Names, '522784' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '616a8149' AS Identifier, 'L Pope' AS UniqueName, 'Pope, Lloyd Pope' AS Names, '1076721' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'cb7c8cdf' AS Identifier, 'LP Smith' AS UniqueName, 'L Smith' AS Names, '696237' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '292381' AS Identifier, 'LP van der Westhuizen' AS UniqueName, '' AS Names, '233063' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '292381e0' AS Identifier, 'LP van der Westhuizen' AS UniqueName, '' AS Names, '233063' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '34d2ca48' AS Identifier, 'LP van Troost' AS UniqueName, '' AS Names, '24969' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fc5cbf37' AS Identifier, 'L Ramji' AS UniqueName, 'Ladha Ramji' AS Names, '33068' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '69950546' AS Identifier, 'L Ramjit' AS UniqueName, '' AS Names, '1184546' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -5658,7 +5676,7 @@ SELECT '7cb0a81a' AS Identifier, 'L Slebsager' AS UniqueName, '' AS Names, '2393
 SELECT '50c6bc2b' AS Identifier, 'LS Livingstone' AS UniqueName, 'L Livingstone, Liam Livingstone' AS Names, '403902' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6d8602de' AS Identifier, 'LSM Miller' AS UniqueName, 'Lawrie Miller' AS Names, '37719' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd6c1d6b7' AS Identifier, 'LS Mulivai' AS UniqueName, 'Mulivai' AS Names, '1182766' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '372993000000000' AS Identifier, 'LS Pascoe' AS UniqueName, 'Len Pascoe' AS Names, '7083' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '372993e9' AS Identifier, 'LS Pascoe' AS UniqueName, 'Len Pascoe' AS Names, '7083' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4398a350' AS Identifier, 'LS Rajput' AS UniqueName, 'Lalchand Rajput' AS Names, '33034' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ddb41291' AS Identifier, 'L Sreekumar' AS UniqueName, '' AS Names, '937673' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5dee559a' AS Identifier, 'LS Reifer' AS UniqueName, '' AS Names, '503174' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -5672,7 +5690,7 @@ SELECT '3979b5e0' AS Identifier, 'L Tucker' AS UniqueName, 'LJ Tucker' AS Names,
 SELECT 'ba12331d' AS Identifier, 'L Tuckett' AS UniqueName, 'LTD Tuckett, Lindsay Tuckett' AS Names, '47559' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b406d908' AS Identifier, 'Lu Cangcang' AS UniqueName, '' AS Names, '934552' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '28b032ac' AS Identifier, 'Lucky Ali' AS UniqueName, '' AS Names, '1153700' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '812511' AS Identifier, 'Lui Els' AS UniqueName, '' AS Names, '827729' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '00812511' AS Identifier, 'Lui Els' AS UniqueName, '' AS Names, '827729' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '07b6c3c1' AS Identifier, 'LU Igalagamage' AS UniqueName, '' AS Names, '704693' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '021223ce' AS Identifier, 'L Uthenwoldt' AS UniqueName, '' AS Names, '227183' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '98cdfb57' AS Identifier, 'LV Garrick' AS UniqueName, 'Leon Garrick' AS Names, '51877' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -5692,7 +5710,7 @@ SELECT '1957c6b7' AS Identifier, 'LWP Wells' AS UniqueName, '' AS Names, '350126
 SELECT '968fbbed' AS Identifier, 'LWS Kaluperuma' AS UniqueName, 'Lalith Kaluperuma' AS Names, '49487' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a665d456' AS Identifier, 'L Yingying' AS UniqueName, '' AS Names, '944275' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '511e02e2' AS Identifier, 'L Yonten' AS UniqueName, '' AS Names, '387044' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'L Zulu' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1283100' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '59e99272' AS Identifier, 'L Zulu' AS UniqueName, '' AS Names, '1283100' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '00ea847a' AS Identifier, 'MA Agarwal' AS UniqueName, 'M Agarwal' AS Names, '398438' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f8809f92' AS Identifier, 'Maaha Naseer' AS UniqueName, '' AS Names, '1208776' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e2ee90d9' AS Identifier, 'MA Aponso' AS UniqueName, 'A Aponso' AS Names, '429748' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -5766,12 +5784,12 @@ SELECT '2cfa6534' AS Identifier, 'Manjural Islam' AS UniqueName, 'Manjural Islam
 SELECT 'e8d7b493' AS Identifier, 'Manjural Islam Rana' AS UniqueName, '' AS Names, '55991' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0db7fb49' AS Identifier, 'Manjurul Islam Talukdar' AS UniqueName, '' AS Names, '548561' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6dc32900' AS Identifier, 'Manmohan Lamsal' AS UniqueName, '' AS Names, '1148102' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'MA Noble' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '6936' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '4e286505' AS Identifier, 'MA Noble' AS UniqueName, 'Monty Noble' AS Names, '6936' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f1194524' AS Identifier, 'Manohar Adhikari' AS UniqueName, '' AS Names, '543692' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '26529' AS Identifier, 'Manoj Adhikari' AS UniqueName, '' AS Names, '402212' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '26529e00' AS Identifier, 'Manoj Adhikari' AS UniqueName, '' AS Names, '402212' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e9d6a2ce' AS Identifier, 'Manpreet Singh' AS UniqueName, '' AS Names, '1062606' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '681af475' AS Identifier, 'M Ansari' AS UniqueName, '' AS Names, '631264' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '23572100000' AS Identifier, 'Mansoor Akhtar' AS UniqueName, '' AS Names, '41263' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '235721e5' AS Identifier, 'Mansoor Akhtar' AS UniqueName, '' AS Names, '41263' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9018bf65' AS Identifier, 'Mansoor Amjad' AS UniqueName, '' AS Names, '41963' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e2d093ff' AS Identifier, 'Mansoor Pasha' AS UniqueName, '' AS Names, '437041' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e3273ac2' AS Identifier, 'Mansoor Qureshi' AS UniqueName, '' AS Names, '1096129' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -5865,7 +5883,7 @@ SELECT '1282302a' AS Identifier, 'MC Carew' AS UniqueName, 'Joey Carew' AS Names
 SELECT '25a316d4' AS Identifier, 'MC Cowdrey' AS UniqueName, 'Colin Cowdrey' AS Names, '10846' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ca30e973' AS Identifier, 'MC Frederick' AS UniqueName, 'Michael Frederick' AS Names, '51798' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4dd262d6' AS Identifier, 'M Chaudhary' AS UniqueName, '' AS Names, '597802' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'M Chauhan' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1156459' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '8534e758' AS Identifier, 'M Chauhan' AS UniqueName, '' AS Names, '1156459' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '32198ae0' AS Identifier, 'MC Henriques' AS UniqueName, 'M Henriques, Moises Henriques' AS Names, '5961' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '55530447' AS Identifier, 'M Cheruparambil' AS UniqueName, '' AS Names, '24136' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5570c4c1' AS Identifier, 'M Choamba' AS UniqueName, '' AS Names, '1283111' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6011,7 +6029,10 @@ SELECT '9e85e3b4' AS Identifier, 'MH Denness' AS UniqueName, 'Mike Denness' AS N
 SELECT '7bace7f3' AS Identifier, 'M Henderson' AS UniqueName, 'Matt Henderson' AS Names, '37246' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '16e68be2' AS Identifier, 'M Hendrick' AS UniqueName, 'Mike Hendrick' AS Names, '14159' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ad112e71' AS Identifier, 'M Higginbottom' AS UniqueName, '' AS Names, '405117' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT 'bf5e7711' AS Identifier, 'M Hill' AS UniqueName, '' AS Names, '343129' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT 'bf5e7711' AS Identifier, 'M Hill' AS UniqueName, '' AS Names, '343129' AS CricInfoId, 1 AS IsActive
+Go
+
+INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
 SELECT '3812165d' AS Identifier, 'M Hinkley' AS UniqueName, 'MC Hinkley, Mikayla Hinkley' AS Names, '944419' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a3f4eb7d' AS Identifier, 'MH Mankad' AS UniqueName, 'Vinoo Mankad' AS Names, '30939' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9f701298' AS Identifier, 'MH McKiernan' AS UniqueName, 'M McKiernan, McKiernan' AS Names, '570241' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6087,7 +6108,7 @@ SELECT 'c5cc48bc' AS Identifier, 'MJJ Critchley' AS UniqueName, 'M Critchley, Cr
 SELECT 'db2114f1' AS Identifier, 'MJ Johnston' AS UniqueName, '' AS Names, '6105' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4b68367d' AS Identifier, 'MJK Smith' AS UniqueName, 'Mike Smith' AS Names, '20255' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '463ebce3' AS Identifier, 'MJ Lamb' AS UniqueName, '' AS Names, '643999' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'MJ Leach' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '455524' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '3987e390' AS Identifier, 'MJ Leach' AS UniqueName, 'J Leach' AS Names, '455524' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '25f7c9e2' AS Identifier, 'MJL Turnbull' AS UniqueName, 'Maurice Turnbull' AS Names, '21614' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '11df3dc8' AS Identifier, 'MJ Lumb' AS UniqueName, 'M Lumb' AS Names, '16406' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '02ffb11a' AS Identifier, 'MJ Macaulay' AS UniqueName, 'Mike Macaulay' AS Names, '46150' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6103,7 +6124,7 @@ SELECT '75a8844e' AS Identifier, 'MJ Paterlini' AS UniqueName, '' AS Names, '235
 SELECT '894b2d25' AS Identifier, 'MJ Potts' AS UniqueName, 'M Potts, Potts' AS Names, '1027781' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7d6bc9d0' AS Identifier, 'MJ Powell' AS UniqueName, 'Mike Powell' AS Names, '18593' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1200550f' AS Identifier, 'MJ Prior' AS UniqueName, 'M Prior' AS Names, '18675' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'MJ Procter' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '46793' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '32e65048' AS Identifier, 'MJ Procter' AS UniqueName, '' AS Names, '46793' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '22176fe7' AS Identifier, 'MJ Richardson' AS UniqueName, '' AS Names, '353899' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f929cd04' AS Identifier, 'MJ Robbins' AS UniqueName, '' AS Names, '915047' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd1c7dd6d' AS Identifier, 'MJ Ross' AS UniqueName, '' AS Names, '1156454' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6138,7 +6159,7 @@ SELECT '1feb0d3c' AS Identifier, 'M Kenni' AS UniqueName, '' AS Names, '1093507'
 SELECT '9f62b897' AS Identifier, 'MKGCP Lakshitha' AS UniqueName, 'Chamila Gamage' AS Names, '49598' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '024aece0' AS Identifier, 'MK Gohal' AS UniqueName, '' AS Names, '1082759' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd29d644e' AS Identifier, 'M Khokhar' AS UniqueName, '' AS Names, '1184544' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '15688' AS Identifier, 'M King' AS UniqueName, '' AS Names, '1158425' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '00015688' AS Identifier, 'M King' AS UniqueName, '' AS Names, '1158425' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ce85fcaf' AS Identifier, 'M Klaas' AS UniqueName, 'Klaas' AS Names, '364368' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b970a03f' AS Identifier, 'M Klinger' AS UniqueName, '' AS Names, '6161' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'da934ee8' AS Identifier, 'MK Lomror' AS UniqueName, 'M Lomror' AS Names, '853265' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6244,7 +6265,7 @@ SELECT 'f91abcd6' AS Identifier, 'M Ngoche' AS UniqueName, '' AS Names, '1119426
 SELECT '40ae69d9' AS Identifier, 'MN Hart' AS UniqueName, 'Matthew Hart' AS Names, '37237' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4958338a' AS Identifier, 'MN Hyde' AS UniqueName, '' AS Names, '598158' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6d3ad1eb' AS Identifier, 'M Nissar' AS UniqueName, 'Mohammad Nissar' AS Names, '31791' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'MN Jesani' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '308412' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '31e94380' AS Identifier, 'MN Jesani' AS UniqueName, '' AS Names, '308412' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ba603555' AS Identifier, 'MNK Fernando' AS UniqueName, '' AS Names, '1074333' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f3183326' AS Identifier, 'MN Lathwell' AS UniqueName, 'Mark Lathwell' AS Names, '16212' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '20481563' AS Identifier, 'MNM Aslam' AS UniqueName, 'Aslam' AS Names, '359649' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6260,7 +6281,7 @@ SELECT '486f252b' AS Identifier, 'MO Bacarese' AS UniqueName, '' AS Names, '4033
 SELECT 'bbfdb0c8' AS Identifier, 'Mobashar Ashraf' AS UniqueName, '' AS Names, '1156613' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '511b1431' AS Identifier, 'MO Bryan' AS UniqueName, '' AS Names, '333034' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e3660d2a' AS Identifier, 'M Ochieng' AS UniqueName, '' AS Names, '1179942' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'M O''Connor' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1101938' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '60e35494' AS Identifier, 'M O''Connor' AS UniqueName, '' AS Names, '1101938' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '41053159' AS Identifier, 'Mofida Kocchargi' AS UniqueName, '' AS Names, '1175163' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9a2ab8cd' AS Identifier, 'MO Frew' AS UniqueName, 'M Frew' AS Names, '820679' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1087dd78' AS Identifier, 'Mohamed Arief' AS UniqueName, 'Mohammad Arief' AS Names, '1150884' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6288,7 +6309,7 @@ SELECT '01b45044' AS Identifier, 'Mohammad Amin' AS UniqueName, '' AS Names, '45
 SELECT 'e174dadd' AS Identifier, 'Mohammad Amir' AS UniqueName, 'Mohammad Aamer, M Amir' AS Names, '290948' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '72f03be4' AS Identifier, 'Mohammad Amir Khan' AS UniqueName, 'Aamir Khan' AS Names, '1206240' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'dd853938' AS Identifier, 'Mohammad Anees (2)' AS UniqueName, '' AS Names, '396244' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '57466500' AS Identifier, 'Mohammad Asghar' AS UniqueName, '' AS Names, '654261' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '574665e2' AS Identifier, 'Mohammad Asghar' AS UniqueName, '' AS Names, '654261' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2bb09eb2' AS Identifier, 'Mohammad Ashraful' AS UniqueName, '' AS Names, '55988' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e03b66ec' AS Identifier, 'Mohammad Asif' AS UniqueName, '' AS Names, '41411' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b7b6790a' AS Identifier, 'Mohammad Asif (2)' AS UniqueName, '' AS Names, '516824' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6317,7 +6338,7 @@ SELECT '4d05a82e' AS Identifier, 'Mohammad Kashif' AS UniqueName, '' AS Names, '
 SELECT 'a5c5a126' AS Identifier, 'Mohammad Khalil' AS UniqueName, '' AS Names, '41452' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '77191792' AS Identifier, 'Mohammad Mithun' AS UniqueName, 'Mithun Ali, M Mithun' AS Names, '269237' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '79f8472d' AS Identifier, 'Mohammad Mohsin' AS UniqueName, '' AS Names, '935881' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '8E+160' AS Identifier, 'Mohammad Mujtaba' AS UniqueName, '' AS Names, '703329' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '0008e160' AS Identifier, 'Mohammad Mujtaba' AS UniqueName, '' AS Names, '703329' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0632417b' AS Identifier, 'Mohammad Munaf' AS UniqueName, '' AS Names, '41291' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '62af8546' AS Identifier, 'Mohammad Nabi' AS UniqueName, 'M Nabi' AS Names, '25913' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c5d7b244' AS Identifier, 'Mohammad Nadeem' AS UniqueName, 'M Nadeem' AS Names, '41984' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6485,7 +6506,7 @@ SELECT 'e04fb55d' AS Identifier, 'M Shehani' AS UniqueName, '' AS Names, '683433
 SELECT '1b4acb7b' AS Identifier, 'MS Henriksen' AS UniqueName, '' AS Names, '470861' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7cfb9b67' AS Identifier, 'M Sheriff' AS UniqueName, '' AS Names, '1182750' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'cb2d58e4' AS Identifier, 'M Sherwin' AS UniqueName, 'Mordecai Sherwin' AS Names, '20167' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'M Shezi' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '230860' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '016e5101' AS Identifier, 'M Shezi' AS UniqueName, '' AS Names, '230860' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '79b4af2d' AS Identifier, 'M Shiraishi' AS UniqueName, '' AS Names, '1035361' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'cdac5a3d' AS Identifier, 'M Shiraz' AS UniqueName, '' AS Names, '801817' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0e283b75' AS Identifier, 'M Short' AS UniqueName, '' AS Names, '546083' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6528,7 +6549,7 @@ SELECT 'f24c6701' AS Identifier, 'M Theekshana' AS UniqueName, '' AS Names, '113
 SELECT '4b3760d9' AS Identifier, 'MT Herbert' AS UniqueName, '' AS Names, '54940' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '98aaa3f3' AS Identifier, 'M Thurgate' AS UniqueName, '' AS Names, '1063434' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '745815a1' AS Identifier, 'M Tilau' AS UniqueName, '' AS Names, '1182789' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '863408' AS Identifier, 'MTMMJ Ave' AS UniqueName, '' AS Names, '953285' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '00863408' AS Identifier, 'MTMMJ Ave' AS UniqueName, '' AS Names, '953285' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'cebc1351' AS Identifier, 'M Tom' AS UniqueName, '' AS Names, '944351' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c8541814' AS Identifier, 'MT Reed' AS UniqueName, '' AS Names, '416572' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '218d4d78' AS Identifier, 'MT Renshaw' AS UniqueName, 'M Renshaw, Renshaw, Matthew Renshaw' AS Names, '722303' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6647,7 +6668,7 @@ SELECT '03ae720f' AS Identifier, 'MW Goodwin' AS UniqueName, 'Murray Goodwin' AS
 SELECT '18aca3ce' AS Identifier, 'MW Graham-Smith' AS UniqueName, '' AS Names, '433944' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '47dc9794' AS Identifier, 'MW Harvey' AS UniqueName, 'MWG Harvey' AS Names, '1076382' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a11be10c' AS Identifier, 'MW Hay' AS UniqueName, '' AS Names, '1240507' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'MW Hill' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '266215' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '1952e660' AS Identifier, 'MW Hill' AS UniqueName, '' AS Names, '266215' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8c7d6cbe' AS Identifier, 'MW Machan' AS UniqueName, 'M Machan' AS Names, '297488' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '19708692' AS Identifier, 'MW Parkinson' AS UniqueName, 'M Parkinson' AS Names, '653695' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6a2fadd0' AS Identifier, 'MW Pillans' AS UniqueName, 'M Pillans' AS Names, '429897' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6677,7 +6698,7 @@ SELECT '838176dc' AS Identifier, 'Nadeem Abbasi' AS UniqueName, '' AS Names, '42
 SELECT '023f6b02' AS Identifier, 'Nadeem Ahmed' AS UniqueName, 'N Ahmed' AS Names, '24230' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '02df7b37' AS Identifier, 'Nadeem Butt' AS UniqueName, '' AS Names, '520279' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8387d138' AS Identifier, 'Nadeem Ghauri' AS UniqueName, '' AS Names, '42044' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Nadeem Javed' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '436999' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '33e72826' AS Identifier, 'Nadeem Javed' AS UniqueName, '' AS Names, '436999' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a94eb41e' AS Identifier, 'Nadeem Khan' AS UniqueName, '' AS Names, '42047' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '84f1e482' AS Identifier, 'Nadeem Malik' AS UniqueName, '' AS Names, '42084' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'febfa931' AS Identifier, 'Nader Zahadiafzal' AS UniqueName, '' AS Names, '1217279' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6693,14 +6714,14 @@ SELECT '185cbde3' AS Identifier, 'Naeem Islam Jr.' AS UniqueName, '' AS Names, '
 SELECT '339562c3' AS Identifier, 'Naeemuddin Aslam' AS UniqueName, '' AS Names, '25604' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c5b87d8c' AS Identifier, 'Nafees Iqbal' AS UniqueName, '' AS Names, '56064' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b88aa9c1' AS Identifier, 'NA Foster' AS UniqueName, 'Neil Foster' AS Names, '12879' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'NAG Farrar' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '468754' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '39e65963' AS Identifier, 'NAG Farrar' AS UniqueName, 'N Farrar' AS Names, '468754' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7ca68967' AS Identifier, 'NA Greenwood' AS UniqueName, '' AS Names, '1181708' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '56ee43b1' AS Identifier, 'Nahan Arif' AS UniqueName, '' AS Names, '1213639' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '66078174' AS Identifier, 'Nahida Akter' AS UniqueName, 'N Akter' AS Names, '924183' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3e7c0b1e' AS Identifier, 'Nahida Khan' AS UniqueName, 'N Khan' AS Names, '361854' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8c7b16c8' AS Identifier, 'Nahidul Islam' AS UniqueName, '' AS Names, '675945' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c2ecd4a7' AS Identifier, 'N Ahir' AS UniqueName, '' AS Names, '1287105' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '4.342E+101' AS Identifier, 'Naiem Bameri' AS UniqueName, '' AS Names, '492699' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '43420e97' AS Identifier, 'Naiem Bameri' AS UniqueName, '' AS Names, '492699' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9f2aa116' AS Identifier, 'Naila Nazir' AS UniqueName, '' AS Names, '361838' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '30a53eb2' AS Identifier, 'Naimur Rahman' AS UniqueName, '' AS Names, '56035' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5486d41f' AS Identifier, 'Nain Abidi' AS UniqueName, 'SNF Abidi' AS Names, '272324' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6720,7 +6741,7 @@ SELECT 'e94d2d50' AS Identifier, 'NA McSweeney' AS UniqueName, 'Nathan McSweeney
 SELECT '389383ba' AS Identifier, 'NA Miyaji' AS UniqueName, '' AS Names, '23679' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '174369f2' AS Identifier, 'NAM McLean' AS UniqueName, 'Nixon McLean' AS Names, '52430' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '30743b6e' AS Identifier, 'NA Moodley' AS UniqueName, '' AS Names, '498874' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '289229000' AS Identifier, 'N Anand' AS UniqueName, '' AS Names, '1116175' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '289229e3' AS Identifier, 'N Anand' AS UniqueName, '' AS Names, '1116175' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ecaeeebe' AS Identifier, 'Naoomal Jeoomal' AS UniqueName, 'Naoomal Jaoomal' AS Names, '31939' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e6ef687d' AS Identifier, 'NA Patwardhan' AS UniqueName, '' AS Names, '32213' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '29ed56ec' AS Identifier, 'NA Plane' AS UniqueName, '' AS Names, '947817' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6734,7 +6755,7 @@ SELECT '9c9af282' AS Identifier, 'Naseem Shah' AS UniqueName, 'N Shah' AS Names,
 SELECT '1f367515' AS Identifier, 'Naseer Jamali' AS UniqueName, '' AS Names, '414247' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '96d914f6' AS Identifier, 'NA Shah' AS UniqueName, '' AS Names, '305692' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c981d3c2' AS Identifier, 'Nashra Sandhu' AS UniqueName, 'N Sandhu' AS Names, '941803' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '9263043' AS Identifier, 'Nasim Moghal' AS UniqueName, '' AS Names, '42217' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '09263043' AS Identifier, 'Nasim Moghal' AS UniqueName, '' AS Names, '42217' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f695aeb2' AS Identifier, 'Nasim-ul-Ghani' AS UniqueName, '' AS Names, '42057' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '16dfcf57' AS Identifier, 'Nasir Abbasi' AS UniqueName, '' AS Names, '822509' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '567675c8' AS Identifier, 'Nasir Ali' AS UniqueName, '' AS Names, '362529' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6810,7 +6831,7 @@ SELECT 'a9e63549' AS Identifier, 'N Chejay' AS UniqueName, '' AS Names, '1167760
 SELECT 'b650a763' AS Identifier, 'N Cherry' AS UniqueName, '' AS Names, '346644' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a904600a' AS Identifier, 'N Choden' AS UniqueName, '' AS Names, '1171667' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ed68cd3b' AS Identifier, 'N Chopra' AS UniqueName, 'Nikhil Chopra' AS Names, '27641' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'NC Johnson' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '55528' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '8e958038' AS Identifier, 'NC Johnson' AS UniqueName, 'Neil Johnson' AS Names, '55528' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd1b5efdf' AS Identifier, 'NCK Liyanage' AS UniqueName, '' AS Names, '226156' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '50da0072' AS Identifier, 'NCL O''Neill' AS UniqueName, 'Norm O''Neill' AS Names, '7015' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f4cbce64' AS Identifier, 'NC McGarrell' AS UniqueName, '' AS Names, '52428' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6855,8 +6876,8 @@ SELECT '3fb8167a' AS Identifier, 'NFD Thomson' AS UniqueName, 'Nat Thomson' AS N
 SELECT 'efa04f87' AS Identifier, 'N Fernandes' AS UniqueName, '' AS Names, '334946' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ef5cbaf6' AS Identifier, 'NFI McCallum' AS UniqueName, '' AS Names, '25430' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '97f437ed' AS Identifier, 'NF Kelly' AS UniqueName, '' AS Names, '559062' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '8.835E+98' AS Identifier, 'NF Williams' AS UniqueName, 'Neil Williams' AS Names, '22453' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '9.262E+98' AS Identifier, 'N Gallichan' AS UniqueName, 'Norman Gallichan' AS Names, '37098' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '88350e94' AS Identifier, 'NF Williams' AS UniqueName, 'Neil Williams' AS Names, '22453' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '09262e95' AS Identifier, 'N Gallichan' AS UniqueName, 'Norman Gallichan' AS Names, '37098' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a1fa0d0f' AS Identifier, 'Ngazibini Sigwili' AS UniqueName, 'N Sigwili' AS Names, '543036' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6e98744c' AS Identifier, 'NG Bagh' AS UniqueName, '' AS Names, '214690' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '772fe461' AS Identifier, 'NGB Cook' AS UniqueName, '' AS Names, '10797' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -6932,7 +6953,7 @@ SELECT '7e9ff716' AS Identifier, 'NJ Shaw' AS UniqueName, '' AS Names, '53733' A
 SELECT 'e23da78c' AS Identifier, 'NK Aneesh Kumar' AS UniqueName, '' AS Names, '1284220' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '43ba7dcf' AS Identifier, 'N Kapil Dev' AS UniqueName, 'Kapil Dev' AS Names, '30028' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ca3f2b64' AS Identifier, 'N Kayani' AS UniqueName, '' AS Names, '1275227' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '5.926E+148' AS Identifier, 'NK Bagenda' AS UniqueName, '' AS Names, '1119465' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '5926e145' AS Identifier, 'NK Bagenda' AS UniqueName, '' AS Names, '1119465' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '39f4084c' AS Identifier, 'NKF Rada Rani' AS UniqueName, '' AS Names, '1116783' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0ec6a7c3' AS Identifier, 'N Khanna' AS UniqueName, '' AS Names, '1178906' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e5223fd3' AS Identifier, 'N Khosla' AS UniqueName, '' AS Names, '520093' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7000,7 +7021,7 @@ SELECT '43114dd6' AS Identifier, 'NN Dave' AS UniqueName, '' AS Names, '24756' A
 SELECT 'a2424a28' AS Identifier, 'NN Davidson' AS UniqueName, '' AS Names, '745899' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f0b4294e' AS Identifier, 'NND de Silva' AS UniqueName, 'N de Silva' AS Names, '557764' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f4e6fede' AS Identifier, 'N Ndiweni' AS UniqueName, '' AS Names, '970717' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '2.564E+65' AS Identifier, 'N Ndouteng' AS UniqueName, '' AS Names, '1286501' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '25640e61' AS Identifier, 'N Ndouteng' AS UniqueName, '' AS Names, '1286501' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '93cad673' AS Identifier, 'NN Gilchrist' AS UniqueName, '' AS Names, '982597' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c498c510' AS Identifier, 'N Nipiko' AS UniqueName, '' AS Names, '420513' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b4bbe95c' AS Identifier, 'N Niranjana' AS UniqueName, 'N Nagarajan' AS Names, '220678' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7011,7 +7032,10 @@ SELECT 'f067d87d' AS Identifier, 'N Nyathi' AS UniqueName, '' AS Names, '272007'
 SELECT 'e40922be' AS Identifier, 'N Oldfield' AS UniqueName, 'Buddy Oldfield' AS Names, '18255' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c079c66a' AS Identifier, 'Noman Amjad' AS UniqueName, '' AS Names, '1153719' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '74877950' AS Identifier, 'Noman Naeem' AS UniqueName, '' AS Names, '1156615' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT 'ea3ffd1b' AS Identifier, 'NO Miller' AS UniqueName, 'N Miller' AS Names, '52622' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT 'ea3ffd1b' AS Identifier, 'NO Miller' AS UniqueName, 'N Miller' AS Names, '52622' AS CricInfoId, 1 AS IsActive
+Go
+
+INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
 SELECT '203914d8' AS Identifier, 'NO Norton' AS UniqueName, 'Pompey Norton' AS Names, '46586' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'efc04be7' AS Identifier, 'Noor Ahmad' AS UniqueName, '' AS Names, '1182529' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '72e46d30' AS Identifier, 'Noor Ali Zadran' AS UniqueName, 'N Zadran' AS Names, '318340' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7043,7 +7067,7 @@ SELECT '6c87f1df' AS Identifier, 'NP Winter' AS UniqueName, '' AS Names, '501498
 SELECT 'fb2d1dda' AS Identifier, 'N Rana' AS UniqueName, '' AS Names, '604527' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '009bc9a6' AS Identifier, 'NR Chowdhury' AS UniqueName, 'Nirode Chowdhury' AS Names, '27659' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e5437a99' AS Identifier, 'NRD Compton' AS UniqueName, 'N Compton' AS Names, '11718' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '26571400000000' AS Identifier, 'N Reid' AS UniqueName, 'Norman Reid' AS Names, '46968' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '265714e8' AS Identifier, 'N Reid' AS UniqueName, 'Norman Reid' AS Names, '46968' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ea56e843' AS Identifier, 'N Revers' AS UniqueName, '' AS Names, '1159663' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3afbcc19' AS Identifier, 'NR Ferreira' AS UniqueName, '' AS Names, '55421' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4312e0fd' AS Identifier, 'NR Hobson' AS UniqueName, '' AS Names, '779929' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7195,7 +7219,7 @@ SELECT 'e91de70e' AS Identifier, 'OP Rayner' AS UniqueName, '' AS Names, '210296
 SELECT 'd8f20ba5' AS Identifier, 'O Prendergast' AS UniqueName, '' AS Names, '1150585' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3f659464' AS Identifier, 'OP Stone' AS UniqueName, 'O Stone, Stone' AS Names, '457279' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '51d04ea2' AS Identifier, 'OR Dunell' AS UniqueName, 'Owen Dunell' AS Names, '44732' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'OR Lobb' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '701741' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '714e4444' AS Identifier, 'OR Lobb' AS UniqueName, '' AS Names, '701741' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4e520f6c' AS Identifier, 'OR Newton' AS UniqueName, '' AS Names, '547763' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'eab61ead' AS Identifier, 'ORT Sale' AS UniqueName, 'O Sale, Sale' AS Names, '767223' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '819574ef' AS Identifier, 'OR Willis' AS UniqueName, '' AS Names, '379539' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7230,7 +7254,7 @@ SELECT '27d1cc51' AS Identifier, 'PA Hitchcock' AS UniqueName, '' AS Names, '372
 SELECT '2e392afa' AS Identifier, 'P Aho' AS UniqueName, '' AS Names, '1155526' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '095976d7' AS Identifier, 'PA Horne' AS UniqueName, '' AS Names, '37251' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1eb5affb' AS Identifier, 'Paing Danu' AS UniqueName, '' AS Names, '1116751' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '3.252E+47' AS Identifier, 'PA Jaques' AS UniqueName, 'P Jaques' AS Names, '6060' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '03252e44' AS Identifier, 'PA Jaques' AS UniqueName, 'P Jaques' AS Names, '6060' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fff54e10' AS Identifier, 'PAJ DeFreitas' AS UniqueName, 'Phil DeFreitas' AS Names, '11865' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fcf37e14' AS Identifier, 'P Alako' AS UniqueName, '' AS Names, '1189310' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4d15045d' AS Identifier, 'P Alam' AS UniqueName, 'Paul Alam' AS Names, '1156614' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7308,7 +7332,7 @@ SELECT '817a58d2' AS Identifier, 'P Doungsin' AS UniqueName, '' AS Names, '58714
 SELECT '439aa572' AS Identifier, 'PD Parker' AS UniqueName, '' AS Names, '7075' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f6b5d11a' AS Identifier, 'PDRL Perera' AS UniqueName, '' AS Names, '49870' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3d284ca3' AS Identifier, 'PD Salt' AS UniqueName, 'P Salt, Philip Salt' AS Names, '669365' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'PD Trego' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '21577' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '93e06301' AS Identifier, 'PD Trego' AS UniqueName, '' AS Names, '21577' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ed5a5510' AS Identifier, 'P Dubey' AS UniqueName, '' AS Names, '777515' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '39181592' AS Identifier, 'PE Kruger' AS UniqueName, '' AS Names, '499560' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6225a597' AS Identifier, 'PE McEwan' AS UniqueName, 'Paul McEwan' AS Names, '37703' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7398,7 +7422,7 @@ SELECT 'cc3a59e1' AS Identifier, 'PJ Sharpe' AS UniqueName, 'Phil Sharpe' AS Nam
 SELECT '8d0964e5' AS Identifier, 'PJ te Beest' AS UniqueName, '' AS Names, '54656' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4025c262' AS Identifier, 'PJ van Biljon' AS UniqueName, 'P van Biljon' AS Names, '266268' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '93a6d2d0' AS Identifier, 'PJ Vosloo' AS UniqueName, '' AS Names, '479838' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '1.1713E+79' AS Identifier, 'PJW Allott' AS UniqueName, 'Paul Allott' AS Names, '8526' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '11713e75' AS Identifier, 'PJW Allott' AS UniqueName, 'Paul Allott' AS Names, '8526' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f39866f1' AS Identifier, 'PJ Wiseman' AS UniqueName, 'Paul Wiseman' AS Names, '38753' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '82b4afcb' AS Identifier, 'PK Amre' AS UniqueName, 'Pravin Amre' AS Names, '26238' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'bc69a6d3' AS Identifier, 'PK Ananya' AS UniqueName, '' AS Names, '308513' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7487,7 +7511,7 @@ SELECT 'ef69619a' AS Identifier, 'Pramesh Parab' AS UniqueName, '' AS Names, '11
 SELECT '56dd8280' AS Identifier, 'Pranab Roy' AS UniqueName, 'P Roy' AS Names, '33187' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9b35c92a' AS Identifier, 'Prassanna Haran' AS UniqueName, '' AS Names, '1202996' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '21bfd654' AS Identifier, 'P Agnihotri' AS UniqueName, '' AS Names, '525146' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '5668270' AS Identifier, 'Praveen Kumar Swamidas' AS UniqueName, '' AS Names, '1229404' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '566827e1' AS Identifier, 'Praveen Kumar Swamidas' AS UniqueName, '' AS Names, '1229404' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '441c72ae' AS Identifier, 'P Ray Barman' AS UniqueName, 'P R Barman' AS Names, '1159712' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1efd12d1' AS Identifier, 'PR Brown' AS UniqueName, 'P Brown, Brown' AS Names, '891517' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6ab21657' AS Identifier, 'PR Carlstein' AS UniqueName, 'Peter Carlstein' AS Names, '44424' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7569,7 +7593,7 @@ SELECT 'b259fce8' AS Identifier, 'PW Jarvis' AS UniqueName, 'Paul Jarvis' AS Nam
 SELECT '159499f2' AS Identifier, 'PW Sherwell' AS UniqueName, 'Percy Sherwell' AS Names, '47186' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f786a7f6' AS Identifier, 'PY Lavine' AS UniqueName, '' AS Names, '55194' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6e60bbe2' AS Identifier, 'PZ Kamunya' AS UniqueName, '' AS Names, '1119591' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Q Abel' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1119431' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '2e988457' AS Identifier, 'Q Abel' AS UniqueName, '' AS Names, '1119431' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9ac1dc9f' AS Identifier, 'Qadeer Ahmed' AS UniqueName, 'Q Ahmed' AS Names, '941959' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8d5d991e' AS Identifier, 'Qais Ahmad' AS UniqueName, 'Q Ahmad' AS Names, '914171' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e59ec361' AS Identifier, 'Qaisar Abbas' AS UniqueName, 'Qaiser Abbas, Q Abbas' AS Names, '42383' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7627,7 +7651,7 @@ SELECT '0bacade8' AS Identifier, 'Rahmanullah Gurbaz' AS UniqueName, 'Rahmanulla
 SELECT 'f9c29fcd' AS Identifier, 'Rahmat Shah' AS UniqueName, 'R Shah' AS Names, '533956' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ec106638' AS Identifier, 'Rahmatullah Mangal' AS UniqueName, '' AS Names, '1271986' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c595b5d9' AS Identifier, 'Rahmatullah Sahaq' AS UniqueName, '' AS Names, '524047' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'RAH Pitchers' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '499559' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '972e3865' AS Identifier, 'RAH Pitchers' AS UniqueName, '' AS Names, '499559' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4956b0bf' AS Identifier, 'Rahul Asher' AS UniqueName, '' AS Names, '1093864' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '891b9757' AS Identifier, 'Rahul Batham' AS UniqueName, 'R Batham' AS Names, '942649' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '714cf6e4' AS Identifier, 'Rahul Sharma' AS UniqueName, '' AS Names, '24129' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7667,7 +7691,7 @@ SELECT '4ed80d22' AS Identifier, 'Ramesh Menon' AS UniqueName, '' AS Names, '522
 SELECT 'b8f3f139' AS Identifier, 'R Amiri' AS UniqueName, '' AS Names, '370038' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '832a4c23' AS Identifier, 'Ramiz Raja' AS UniqueName, 'Rameez Raja' AS Names, '42420' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '524066ad' AS Identifier, 'Ramveer Rai' AS UniqueName, '' AS Names, '25612' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Rana Singh' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1101870' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '61e18909' AS Identifier, 'Rana Singh' AS UniqueName, '' AS Names, '1101870' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f4a9e5a1' AS Identifier, 'R Anders' AS UniqueName, '' AS Names, '928061' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '66c1accf' AS Identifier, 'R Andrew' AS UniqueName, '' AS Names, '1093518' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c6fba3b8' AS Identifier, 'Rangachari Vijayaraghavan' AS UniqueName, '' AS Names, '35823' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7697,7 +7721,7 @@ SELECT '495d42a5' AS Identifier, 'R Ashwin' AS UniqueName, '' AS Names, '26421' 
 SELECT 'b8527c3d' AS Identifier, 'Rasikh Salam' AS UniqueName, 'R Salam' AS Names, '1161489' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f35dded4' AS Identifier, 'RA Sinfield' AS UniqueName, 'Reg Sinfield' AS Names, '20201' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2f28dc94' AS Identifier, 'RAS Lakmal' AS UniqueName, 'Lakmal, S Lakmal' AS Names, '49619' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'RA Smith' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '20263' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '29e14538' AS Identifier, 'RA Smith' AS UniqueName, '' AS Names, '20263' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '978bd738' AS Identifier, 'RA Stevenson' AS UniqueName, 'R Stevenson' AS Names, '885743' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7ce244fd' AS Identifier, 'RA Tappin' AS UniqueName, '' AS Names, '332956' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6db7068e' AS Identifier, 'RA Thomas' AS UniqueName, '' AS Names, '1159654' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7719,7 +7743,7 @@ SELECT '73528168' AS Identifier, 'Raz Ahsik Imtiaz' AS UniqueName, '' AS Names, 
 SELECT 'eee46f77' AS Identifier, 'Raza Iqbal' AS UniqueName, '' AS Names, '917093' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd146924b' AS Identifier, 'Raza-ur-Rehman' AS UniqueName, '' AS Names, '259413' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '60cc80ac' AS Identifier, 'Razmal Shigiwal' AS UniqueName, '' AS Names, '1156634' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '4213325' AS Identifier, 'Razzak Shah' AS UniqueName, '' AS Names, '509627' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '04213325' AS Identifier, 'Razzak Shah' AS UniqueName, '' AS Names, '509627' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '26c9b5be' AS Identifier, 'R Baaleri' AS UniqueName, '' AS Names, '1155516' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c74c583b' AS Identifier, 'R Bakum' AS UniqueName, '' AS Names, '1107671' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'dba09bfe' AS Identifier, 'RB Desai' AS UniqueName, 'Ramakant Desai' AS Names, '28045' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7763,14 +7787,14 @@ SELECT 'dd20f962' AS Identifier, 'RC Russell' AS UniqueName, '' AS Names, '19500
 SELECT '0fb3e982' AS Identifier, 'RC Saxena' AS UniqueName, 'Ramesh Saxena' AS Names, '33882' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0deb9872' AS Identifier, 'RC Shukla' AS UniqueName, 'Rakesh Shukla' AS Names, '34020' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1ac52c29' AS Identifier, 'RC Turpin' AS UniqueName, 'Richard Turpin' AS Names, '22032' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'R Cunningham' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1274034' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '6779e840' AS Identifier, 'R Cunningham' AS UniqueName, '' AS Names, '1274034' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ca057a4d' AS Identifier, 'RD Anderson' AS UniqueName, '' AS Names, '36198' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7804d401' AS Identifier, 'R Davson' AS UniqueName, '' AS Names, '1287096' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '494849000000' AS Identifier, 'RDB Croft' AS UniqueName, 'Robert Croft' AS Names, '10881' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '494849e6' AS Identifier, 'RDB Croft' AS UniqueName, 'Robert Croft' AS Names, '10881' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e21bc7f3' AS Identifier, 'RD Berrington' AS UniqueName, 'R Berrington' AS Names, '25490' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '681612f2' AS Identifier, 'RD Bovell' AS UniqueName, '' AS Names, '26068' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2ed569a0' AS Identifier, 'RD Chahar' AS UniqueName, 'R Chahar' AS Names, '1064812' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'RD de Sousa' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1161404' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '2901e489' AS Identifier, 'RD de Sousa' AS UniqueName, '' AS Names, '1161404' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '45a43fe2' AS Identifier, 'RD Gaikwad' AS UniqueName, 'R Gaikwad' AS Names, '1060380' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '49dc2ef6' AS Identifier, 'RD Goodger' AS UniqueName, '' AS Names, '5557' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9b858e4d' AS Identifier, 'RD Gudhka' AS UniqueName, '' AS Names, '494133' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7881,7 +7905,7 @@ SELECT '592df321' AS Identifier, 'R Howorth' AS UniqueName, 'Dick Howorth' AS Na
 SELECT '025a092b' AS Identifier, 'RH Patel' AS UniqueName, '' AS Names, '360320' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e6f0408a' AS Identifier, 'RH Priest' AS UniqueName, 'Rachel Priest, R Priest' AS Names, '231305' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '72cb189a' AS Identifier, 'RH Robinson' AS UniqueName, 'Ray Robinson' AS Names, '7377' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '9.2129E+24' AS Identifier, 'RH Scott' AS UniqueName, 'Roy Scott' AS Names, '38383' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '92129e20' AS Identifier, 'RH Scott' AS UniqueName, 'Roy Scott' AS Names, '38383' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0fe0633a' AS Identifier, 'RH Shodhan' AS UniqueName, 'Deepak Shodhan' AS Names, '34007' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '382a9ddf' AS Identifier, 'RH Spooner' AS UniqueName, 'Reggie Spooner' AS Names, '20316' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7fdab87e' AS Identifier, 'RH Vance' AS UniqueName, 'Bert Vance' AS Names, '38707' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7896,7 +7920,7 @@ SELECT 'd8148799' AS Identifier, 'Richard Kenward' AS UniqueName, '' AS Names, '
 SELECT '83b3be03' AS Identifier, 'RIC Holder' AS UniqueName, 'Roland Holder' AS Names, '52059' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4dc4530c' AS Identifier, 'Rida Zainab' AS UniqueName, '' AS Names, '1290379' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fa31faea' AS Identifier, 'Ridha Aulia' AS UniqueName, '' AS Names, '1082746' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'RI Harford' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '37230' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '6475e647' AS Identifier, 'RI Harford' AS UniqueName, 'Roy Harford' AS Names, '37230' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e22d3b5c' AS Identifier, 'RI Keogh' AS UniqueName, 'R Keogh' AS Names, '408413' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7c524708' AS Identifier, 'R Illingworth' AS UniqueName, 'Ray Illingworth' AS Names, '15385' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'baeae6dd' AS Identifier, 'R Immadi' AS UniqueName, '' AS Names, '1196334' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -7986,7 +8010,7 @@ SELECT 'ff1ec94d' AS Identifier, 'R Klein' AS UniqueName, '' AS Names, '594996' 
 SELECT '99be3c81' AS Identifier, 'RK Nunes' AS UniqueName, 'Karl Nunes' AS Names, '52635' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2ec8a400' AS Identifier, 'RK O''Donnell' AS UniqueName, '' AS Names, '1128754' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8d14b938' AS Identifier, 'RK Oliver' AS UniqueName, '' AS Names, '354165' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'RK Oxenham' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '7023' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '9642e672' AS Identifier, 'RK Oxenham' AS UniqueName, 'Ron Oxenham' AS Names, '7023' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '57a45277' AS Identifier, 'RK Parwin' AS UniqueName, 'R Parwin' AS Names, '578454' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4531f249' AS Identifier, 'RK Patel' AS UniqueName, '' AS Names, '857653' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1a3cc554' AS Identifier, 'RK Paudel' AS UniqueName, 'R Paudel, R Kumar' AS Names, '1072488' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8011,7 +8035,10 @@ SELECT 'e5b4e363' AS Identifier, 'R Limbu' AS UniqueName, '' AS Names, '1161442'
 SELECT '3967930c' AS Identifier, 'RL Johnson' AS UniqueName, 'Richard Johnson' AS Names, '15522' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4b8586ba' AS Identifier, 'RL McHarg' AS UniqueName, '' AS Names, '37992' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '24cda304' AS Identifier, 'RL Park' AS UniqueName, 'Roy Park' AS Names, '7079' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '86d151dc' AS Identifier, 'RL Parry' AS UniqueName, '' AS Names, '7153' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '86d151dc' AS Identifier, 'RL Parry' AS UniqueName, '' AS Names, '7153' AS CricInfoId, 1 AS IsActive
+Go
+
+INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
 SELECT '33a50ecf' AS Identifier, 'RL Powell' AS UniqueName, '' AS Names, '52681' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ab3c333a' AS Identifier, 'RL Sanghvi' AS UniqueName, 'Rahul Sanghvi' AS Names, '34214' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '459a7b0a' AS Identifier, 'R MacDonald-Gay' AS UniqueName, '' AS Names, '1187119' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8022,7 +8049,7 @@ SELECT '4cf645c9' AS Identifier, 'RMAM Avery' AS UniqueName, '' AS Names, '11613
 SELECT 'cc9b822c' AS Identifier, 'R Matsumura' AS UniqueName, '' AS Names, '1063430' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b23d3ec5' AS Identifier, 'R Mazumder' AS UniqueName, '' AS Names, '1281560' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '94fe4708' AS Identifier, 'RM Burns' AS UniqueName, '' AS Names, '544558' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'R McBey' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1013199' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '9652e347' AS Identifier, 'R McBey' AS UniqueName, '' AS Names, '1013199' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f7e41cd8' AS Identifier, 'R McKenna' AS UniqueName, '' AS Names, '1282067' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c654af19' AS Identifier, 'R McLaren' AS UniqueName, '' AS Names, '46393' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8779d82c' AS Identifier, 'RM Cowper' AS UniqueName, 'Bob Cowper' AS Names, '4645' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8032,14 +8059,14 @@ SELECT '3d7f02d4' AS Identifier, 'RM Dorji' AS UniqueName, '' AS Names, '1161443
 SELECT 'f39682a5' AS Identifier, 'RM D''Souza' AS UniqueName, '' AS Names, '1213659' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7da44536' AS Identifier, 'RM Duffield' AS UniqueName, '' AS Names, '434812' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd28304a2' AS Identifier, 'RM Edwards' AS UniqueName, 'Prof Edwards' AS Names, '51740' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '1405520' AS Identifier, 'RM Ellison' AS UniqueName, 'Richard Ellison' AS Names, '12507' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '140552e1' AS Identifier, 'RM Ellison' AS UniqueName, 'Richard Ellison' AS Names, '12507' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4ed7d23f' AS Identifier, 'RM Farrell' AS UniqueName, 'R Farrell' AS Names, '273004' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7.21E+201' AS Identifier, 'RM Ghosh' AS UniqueName, 'R Ghosh' AS Names, '1212830' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '721e0199' AS Identifier, 'RM Ghosh' AS UniqueName, 'R Ghosh' AS Names, '1212830' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '27159c6a' AS Identifier, 'RM Haq' AS UniqueName, 'M Haq' AS Names, '25451' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '764bdd5f' AS Identifier, 'RM Harris' AS UniqueName, 'Roger Harris' AS Names, '37234' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd4a1c35e' AS Identifier, 'RMH Binny' AS UniqueName, 'Roger Binny' AS Names, '26948' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '48568d7f' AS Identifier, 'RMH Cottam' AS UniqueName, 'Bob Cottam' AS Names, '10824' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'RM Hira' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '232356' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '2e966563' AS Identifier, 'RM Hira' AS UniqueName, 'R Hira, Hira' AS Names, '232356' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c77ae77d' AS Identifier, 'RM Hogg' AS UniqueName, 'Rodney Hogg' AS Names, '5685' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '39b79aa9' AS Identifier, 'RM Johnson' AS UniqueName, '' AS Names, '257519' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f0a45427' AS Identifier, 'RM Koda' AS UniqueName, '' AS Names, '1116759' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8050,7 +8077,7 @@ SELECT 'a8236b69' AS Identifier, 'R Mosweu' AS UniqueName, '' AS Names, '637468'
 SELECT 'c740ea83' AS Identifier, 'RM Patidar' AS UniqueName, 'R Patidar' AS Names, '823703' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '13fa6ffc' AS Identifier, 'RMPJ Rambukwella' AS UniqueName, '' AS Names, '50301' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '406c925e' AS Identifier, 'RM Poore' AS UniqueName, 'Robert Poore' AS Names, '46776' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '4268812' AS Identifier, 'RM Prideaux' AS UniqueName, 'Roger Prideaux' AS Names, '18625' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '04268812' AS Identifier, 'RM Prideaux' AS UniqueName, 'Roger Prideaux' AS Names, '18625' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '903c1d37' AS Identifier, 'RM Pyrah' AS UniqueName, '' AS Names, '19127' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '349c5e58' AS Identifier, 'RMR Brathwaite' AS UniqueName, '' AS Names, '244499' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7febdb69' AS Identifier, 'RM Scott' AS UniqueName, '' AS Names, '1294028' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8069,7 +8096,7 @@ SELECT '3581a798' AS Identifier, 'RM Yates' AS UniqueName, 'R Yates' AS Names, '
 SELECT '37c0508e' AS Identifier, 'R Nanan' AS UniqueName, 'Rangy Nanan' AS Names, '52631' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'cbcd3285' AS Identifier, 'R Narasimhan' AS UniqueName, '' AS Names, '32011' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '27880adb' AS Identifier, 'RN Birkenstock' AS UniqueName, '' AS Names, '336228' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '4.393E+50' AS Identifier, 'R Nehonde' AS UniqueName, '' AS Names, '333003' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '4393e047' AS Identifier, 'R Nehonde' AS UniqueName, '' AS Names, '333003' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6e3f5a5c' AS Identifier, 'R Ngarava' AS UniqueName, 'Ngarava' AS Names, '806241' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ef48b426' AS Identifier, 'RN Harvey' AS UniqueName, '' AS Names, '5603' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '92edb363' AS Identifier, 'RN Hendricks' AS UniqueName, '' AS Names, '663903' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8153,7 +8180,7 @@ SELECT 'd68e7f48' AS Identifier, 'R Rampaul' AS UniqueName, '' AS Names, '52912'
 SELECT 'ba5e1069' AS Identifier, 'R Ravindra' AS UniqueName, '' AS Names, '959767' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'af4f9d86' AS Identifier, 'R Ravindran' AS UniqueName, '' AS Names, '1156428' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'db39155a' AS Identifier, 'R Rawal' AS UniqueName, '' AS Names, '486887' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'RR Ayre' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '638911' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '0539e735' AS Identifier, 'RR Ayre' AS UniqueName, '' AS Names, '638911' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '684a56df' AS Identifier, 'RR Beaton' AS UniqueName, '' AS Names, '498440' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e0672ff4' AS Identifier, 'RR Behera' AS UniqueName, '' AS Names, '1294030' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7d3720ba' AS Identifier, 'RR Bhatkal' AS UniqueName, 'R Bhatkal' AS Names, '27150' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8209,7 +8236,7 @@ SELECT '237ec05b' AS Identifier, 'RS Gayakwad' AS UniqueName, 'R Gayakwad' AS Na
 SELECT '45c2db15' AS Identifier, 'RS Glen' AS UniqueName, '' AS Names, '878067' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a87a9753' AS Identifier, 'RS Grant' AS UniqueName, 'Rolph Grant' AS Names, '51897' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a5a4b545' AS Identifier, 'Reeva Shah' AS UniqueName, '' AS Names, '1289499' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '3.424E+53' AS Identifier, 'R Shah' AS UniqueName, '' AS Names, '637292' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '3424e050' AS Identifier, 'R Shah' AS UniqueName, '' AS Names, '637292' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '82f0b62e' AS Identifier, 'R Shankar' AS UniqueName, '' AS Names, '277744' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '102bc1f4' AS Identifier, 'Ricky Sharma' AS UniqueName, '' AS Names, '627385' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5d9a1a73' AS Identifier, 'R Sharma' AS UniqueName, '' AS Names, '272994' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8228,7 +8255,7 @@ SELECT 'ba3a1359' AS Identifier, 'RSM Lili''i' AS UniqueName, '' AS Names, '4911
 SELECT 'd9c56123' AS Identifier, 'RS Modi' AS UniqueName, 'Rusi Modi' AS Names, '31021' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2f8a9682' AS Identifier, 'RS Morton' AS UniqueName, '' AS Names, '52445' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'bbe1525d' AS Identifier, 'R Southby' AS UniqueName, '' AS Names, '1021721' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '9.7905E+68' AS Identifier, 'RS Patel' AS UniqueName, '' AS Names, '1010307' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '97905e64' AS Identifier, 'RS Patel' AS UniqueName, '' AS Names, '1010307' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6f4c73ce' AS Identifier, 'RS Primus' AS UniqueName, '' AS Names, '1065662' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '41721f6b' AS Identifier, 'RS Quyn' AS UniqueName, 'Quyn' AS Names, '1213643' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '13d0b3d6' AS Identifier, 'RS Second' AS UniqueName, '' AS Names, '321757' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8236,7 +8263,7 @@ SELECT 'a3ecf01f' AS Identifier, 'RS Sodhi' AS UniqueName, '' AS Names, '34078' 
 SELECT '7324c7f2' AS Identifier, 'R Steyn' AS UniqueName, 'Rubin Steyn' AS Names, '339265' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'def7b1bb' AS Identifier, 'R Stokell' AS UniqueName, '' AS Names, '1094717' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0b2a170a' AS Identifier, 'R Strydom' AS UniqueName, '' AS Names, '303341' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '3.826E+85' AS Identifier, 'R Subba Row' AS UniqueName, 'Raman Subba Row' AS Names, '20406' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '3826e082' AS Identifier, 'R Subba Row' AS UniqueName, 'Raman Subba Row' AS Names, '20406' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7c32b886' AS Identifier, 'R Subramanian' AS UniqueName, '' AS Names, '34132' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd5ce7a6e' AS Identifier, 'R Sundar' AS UniqueName, '' AS Names, '34153' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '80e193fa' AS Identifier, 'RS Vandort' AS UniqueName, '' AS Names, '631721' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8292,8 +8319,8 @@ SELECT 'ae78fb75' AS Identifier, 'RW Barber' AS UniqueName, 'Bob Barber' AS Name
 SELECT '4309db0b' AS Identifier, 'RW Blair' AS UniqueName, 'Bob Blair' AS Names, '36300' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2f0d7e4a' AS Identifier, 'RW Chakabva' AS UniqueName, 'R Chakabva' AS Names, '293831' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '976bc433' AS Identifier, 'RWG Emery' AS UniqueName, 'Ray Emery' AS Names, '36953' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '60470000000' AS Identifier, 'R Withey' AS UniqueName, '' AS Names, '627253' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'RW Marsh' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '6502' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '6047e007' AS Identifier, 'R Withey' AS UniqueName, '' AS Names, '627253' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '8188e525' AS Identifier, 'RW Marsh' AS UniqueName, 'Rod Marsh' AS Names, '6502' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5df4a804' AS Identifier, 'RW McLeod' AS UniqueName, 'Bob McLeod' AS Names, '6585' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a1af2adc' AS Identifier, 'RW Morgan' AS UniqueName, 'Ross Morgan' AS Names, '37727' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ec87b7fa' AS Identifier, 'R Wood' AS UniqueName, 'Reg Wood' AS Names, '22512' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8540,7 +8567,7 @@ SELECT '122108d8' AS Identifier, 'S Chattergoon' AS UniqueName, '' AS Names, '51
 SELECT 'c8ec02e1' AS Identifier, 'S Chaturvedi' AS UniqueName, '' AS Names, '27791' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b4c0d3c4' AS Identifier, 'S Chhetri' AS UniqueName, '' AS Names, '455465' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e1e0775d' AS Identifier, 'S Choden' AS UniqueName, '' AS Names, '1140098' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '5257527' AS Identifier, 'S Chohan' AS UniqueName, '' AS Names, '345041' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '05257527' AS Identifier, 'S Chohan' AS UniqueName, '' AS Names, '345041' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '45f4af74' AS Identifier, 'S Chophel' AS UniqueName, '' AS Names, '1208993' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'adcfca76' AS Identifier, 'S Christopherson' AS UniqueName, 'Stanley Christopherson' AS Names, '10727' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'eba6a852' AS Identifier, 'SCJ Broad' AS UniqueName, 'Stuart Broad, S Broad' AS Names, '10617' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8745,7 +8772,7 @@ SELECT 'ac387889' AS Identifier, 'Sharif Asadullah' AS UniqueName, 'A Shareef' A
 SELECT '8ac11b50' AS Identifier, 'Sharifullah' AS UniqueName, '' AS Names, '280735' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '193ef196' AS Identifier, 'Sharjeel Khan' AS UniqueName, 'S Khan' AS Names, '227762' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '84fdd3cf' AS Identifier, 'Sharmin Akhter' AS UniqueName, 'S Supta' AS Names, '535868' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Sharmin Sultana' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '924179' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '4e017436' AS Identifier, 'Sharmin Sultana' AS UniqueName, '' AS Names, '924179' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6b992a6f' AS Identifier, 'Shathira Jakir' AS UniqueName, '' AS Names, '301605' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5ab08739' AS Identifier, 'Shawkat Zaman' AS UniqueName, '' AS Names, '776733' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '571e1d2a' AS Identifier, 'Shayan Jahangir' AS UniqueName, '' AS Names, '647771' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8814,7 +8841,7 @@ SELECT '72c9ad99' AS Identifier, 'Sidra Ameen' AS UniqueName, 'S Ameen' AS Names
 SELECT 'ca3ded6f' AS Identifier, 'Sidra Nawaz' AS UniqueName, 'S Nawaz' AS Names, '500733' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9fb1d2e1' AS Identifier, 'S Iftikhar' AS UniqueName, '' AS Names, '873557' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '05bb5fcf' AS Identifier, 'SI Galagedara' AS UniqueName, '' AS Names, '54817' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'SI Gray' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1208943' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '67e91623' AS Identifier, 'SI Gray' AS UniqueName, '' AS Names, '1208943' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '26d041c4' AS Identifier, 'Sikandar Raza' AS UniqueName, 'S Raza' AS Names, '299572' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '67123876' AS Identifier, 'Sikander Bakht' AS UniqueName, '' AS Names, '42661' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3b572f28' AS Identifier, 'Sikander Zulfiqar' AS UniqueName, 'S Zulfiqar' AS Names, '526482' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8907,7 +8934,7 @@ SELECT '05b2f5ff' AS Identifier, 'SK Chandhrasekar' AS UniqueName, '' AS Names, 
 SELECT 'a8dd3020' AS Identifier, 'SK Coen' AS UniqueName, 'Shunter Coen' AS Names, '44451' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'bd8139a1' AS Identifier, 'SK Dolawatte' AS UniqueName, 'S Dolawatte' AS Names, '54840' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '95c2d309' AS Identifier, 'SKDT Madusanka' AS UniqueName, '' AS Names, '1283126' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '5026222' AS Identifier, 'S Kemigisha' AS UniqueName, '' AS Names, '1119472' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '05026222' AS Identifier, 'S Kemigisha' AS UniqueName, '' AS Names, '1119472' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '77beeefe' AS Identifier, 'S Kenni' AS UniqueName, '' AS Names, '1182781' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '39ef812b' AS Identifier, 'S Keshvani' AS UniqueName, '' AS Names, '23879' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f6d9f548' AS Identifier, 'S Ketipe' AS UniqueName, '' AS Names, '296137' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -8920,7 +8947,7 @@ SELECT 'dbfbaba1' AS Identifier, 'S Kimura' AS UniqueName, '' AS Names, '1159147
 SELECT 'ff387f93' AS Identifier, 'S Kintu' AS UniqueName, '' AS Names, '474194' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9cdce473' AS Identifier, 'SKL de Silva' AS UniqueName, 'Lanka de Silva' AS Names, '48465' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a0bc8dc1' AS Identifier, 'SK Moloney' AS UniqueName, 'Sasha Moloney' AS Names, '586869' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '8320616' AS Identifier, 'SK Naidu' AS UniqueName, '' AS Names, '226658' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '08320616' AS Identifier, 'SK Naidu' AS UniqueName, '' AS Names, '226658' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd1d8b6a2' AS Identifier, 'S Kollery' AS UniqueName, '' AS Names, '859715' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6c8904c8' AS Identifier, 'S Kotte' AS UniqueName, '' AS Names, '1171666' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f93b43dd' AS Identifier, 'SK Patel' AS UniqueName, '' AS Names, '532853' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9010,9 +9037,12 @@ SELECT '7e9b3b60' AS Identifier, 'SM Kavanagh' AS UniqueName, 'S Kavanagh' AS Na
 SELECT '0fc88c2a' AS Identifier, 'SMK Waththage' AS UniqueName, '' AS Names, '1156478' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd28f4d1c' AS Identifier, 'SMLD Samarakoon' AS UniqueName, '' AS Names, '924551' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '91d9613e' AS Identifier, 'SM Mayers' AS UniqueName, '' AS Names, '317144' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '8e580acd' AS Identifier, 'SM Mills' AS UniqueName, 'Stu Mills' AS Names, '37998' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '8e580acd' AS Identifier, 'SM Mills' AS UniqueName, 'Stu Mills' AS Names, '37998' AS CricInfoId, 1 AS IsActive
+Go
+
+INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
 SELECT '92529241' AS Identifier, 'SM Nurse' AS UniqueName, 'Seymour Nurse' AS Names, '52636' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'S Molineux' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '944373' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '99e23670' AS Identifier, 'S Molineux' AS UniqueName, 'Sophie Molineux, SG Molineux' AS Names, '944373' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c16d209b' AS Identifier, 'S Morris' AS UniqueName, 'Sam Morris' AS Names, '6647' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c488b6ac' AS Identifier, 'S Moseley' AS UniqueName, 'SAR Moseley' AS Names, '851501' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '94de63bf' AS Identifier, 'S Mostary' AS UniqueName, 'Sobhana Mostary' AS Names, '1145089' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9190,7 +9220,7 @@ SELECT '9ab2914d' AS Identifier, 'S Samarawickrama' AS UniqueName, 'WSR Samarawi
 SELECT 'a3c9ef5f' AS Identifier, 'S Sandeepani' AS UniqueName, 'PS Sandeepani' AS Names, '683445' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'cdc6bdba' AS Identifier, 'S Sandeep Warrier' AS UniqueName, 'S Warrier, Sandeep Warrier' AS Names, '592735' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '67721a32' AS Identifier, 'S Santhirakumaran' AS UniqueName, '' AS Names, '1271985' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'SSB Magala' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '379776' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '8361e524' AS Identifier, 'SSB Magala' AS UniqueName, '' AS Names, '379776' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2f9a6bd1' AS Identifier, 'SS Connell' AS UniqueName, 'Connell, S Connell' AS Names, '474191' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a1d053dd' AS Identifier, 'SS Cottrell' AS UniqueName, 'Cotterell, S Cottrell' AS Names, '495551' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c05f9d20' AS Identifier, 'SSD Arachchige' AS UniqueName, '' AS Names, '693975' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9205,7 +9235,7 @@ SELECT '6bebf334' AS Identifier, 'SS Grimmond' AS UniqueName, 'Grimmond, S Grimm
 SELECT 'c28355cd' AS Identifier, 'S Shahri' AS UniqueName, '' AS Names, '597980' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '92671859' AS Identifier, 'S Shankar' AS UniqueName, 'Sivasubramaniyan Shankar' AS Names, '380304' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'dae6fac5' AS Identifier, 'S Sharma' AS UniqueName, '' AS Names, '490627' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'SS Hazare' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '29400' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '166e5081' AS Identifier, 'SS Hazare' AS UniqueName, '' AS Names, '29400' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd76b0d2d' AS Identifier, 'S Shillingford' AS UniqueName, '' AS Names, '52997' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6bef1892' AS Identifier, 'S Shivnarine' AS UniqueName, 'Sew Shivnarine' AS Names, '52932' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9a58f2c8' AS Identifier, 'S Siegers' AS UniqueName, '' AS Names, '1022083' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9274,7 +9304,7 @@ SELECT '0840313e' AS Identifier, 'ST Knox' AS UniqueName, '' AS Names, '15922' A
 SELECT 'd7f1fe76' AS Identifier, 'S Tobgay' AS UniqueName, '' AS Names, '387032' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1c40f69f' AS Identifier, 'S Tosic' AS UniqueName, '' AS Names, '1267511' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'bd17b45f' AS Identifier, 'STR Binny' AS UniqueName, 'S Binny' AS Names, '27223' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '6.626E+260' AS Identifier, 'S Tripp' AS UniqueName, '' AS Names, '1263737' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '6626e257' AS Identifier, 'S Tripp' AS UniqueName, '' AS Names, '1263737' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'cdfb6212' AS Identifier, 'S Tuitoga' AS UniqueName, '' AS Names, '647729' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '7442f8dd' AS Identifier, 'S Turner' AS UniqueName, '' AS Names, '1230752' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c24a2c5d' AS Identifier, 'S Tyagi' AS UniqueName, '' AS Names, '317784' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9307,7 +9337,7 @@ SELECT 'a84ccd7d' AS Identifier, 'Sumon Khan' AS UniqueName, '' AS Names, '11634
 SELECT '218d7e5d' AS Identifier, 'Sunghoon Cho' AS UniqueName, '' AS Names, '781127' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '84a96566' AS Identifier, 'Sun Meng Yao' AS UniqueName, '' AS Names, '301140' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ee3dfa89' AS Identifier, 'Sunny Gupta' AS UniqueName, 'S Gupta' AS Names, '271315' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Sunny Singh' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '35282' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '30e37810' AS Identifier, 'Sunny Singh' AS UniqueName, '' AS Names, '35282' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0f348f58' AS Identifier, 'Sunzamul Islam' AS UniqueName, 'Sanjamul Islam, S Islam' AS Names, '380974' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e6acd7aa' AS Identifier, 'Suraiya Azmin' AS UniqueName, '' AS Names, '1051217' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'bb9d73d8' AS Identifier, 'Suraj Kumar' AS UniqueName, 'S Kumar' AS Names, '1156690' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9465,7 +9495,7 @@ SELECT '211dc1ce' AS Identifier, 'T Bhatia' AS UniqueName, '' AS Names, '883423'
 SELECT 'db99a61c' AS Identifier, 'T Birbal' AS UniqueName, '' AS Names, '51452' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd2f72b19' AS Identifier, 'TBM de Leede' AS UniqueName, '' AS Names, '24882' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3f7eca80' AS Identifier, 'TB Mitchell' AS UniqueName, 'Tommy Mitchell' AS Names, '17050' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'T Bokako' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '488620' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '032e4384' AS Identifier, 'T Bokako' AS UniqueName, '' AS Names, '488620' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '96a0ad77' AS Identifier, 'T Bosch' AS UniqueName, 'Tertius Bosch' AS Names, '44097' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '06659caa' AS Identifier, 'T Brits' AS UniqueName, '' AS Names, '600731' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5d664346' AS Identifier, 'TB Robinson' AS UniqueName, '' AS Names, '1290929' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9505,7 +9535,7 @@ SELECT 'd3a1c63d' AS Identifier, 'T de Zorzi' AS UniqueName, '' AS Names, '69718
 SELECT '47f1e175' AS Identifier, 'TDF Vehvilainen' AS UniqueName, '' AS Names, '580996' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'dddc811c' AS Identifier, 'TD Groenewald' AS UniqueName, 'T Groenewald, Groenewald' AS Names, '45390' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0ac96579' AS Identifier, 'T Dorji' AS UniqueName, '' AS Names, '387023' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'TD Paine' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '7252' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '5748e866' AS Identifier, 'TD Paine' AS UniqueName, 'T Paine' AS Names, '7252' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '9c3c5dee' AS Identifier, 'TD Rouse' AS UniqueName, '' AS Names, '562086' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'cc3884f9' AS Identifier, 'TD Smartt' AS UniqueName, 'T Smartt' AS Names, '424630' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4a84f573' AS Identifier, 'T Duffin' AS UniqueName, '' AS Names, '55391' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9705,7 +9735,7 @@ SELECT '961b8ff1' AS Identifier, 'TP Alsop' AS UniqueName, 'T Alsop' AS Names, '
 SELECT '3b417422' AS Identifier, 'T Panyangara' AS UniqueName, '' AS Names, '55705' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '68b91243' AS Identifier, 'TPB Smith' AS UniqueName, 'Peter Smith' AS Names, '20270' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd87404b4' AS Identifier, 'TP Doropoulos' AS UniqueName, '' AS Names, '5104' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '45639700000' AS Identifier, 'T Perera' AS UniqueName, '' AS Names, '1089937' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '456397e5' AS Identifier, 'T Perera' AS UniqueName, '' AS Names, '1089937' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '923402d8' AS Identifier, 'T Peschel' AS UniqueName, 'TCJ Peschel, Taneale Peschel' AS Names, '679171' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '56c0966b' AS Identifier, 'T Phaswana' AS UniqueName, '' AS Names, '1163172' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e94f7583' AS Identifier, 'T Phiri' AS UniqueName, '' AS Names, '294038' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9734,7 +9764,7 @@ SELECT '90b11b84' AS Identifier, 'Trishna Singh' AS UniqueName, '' AS Names, '30
 SELECT '7c84b708' AS Identifier, 'TR Kashyappan' AS UniqueName, '' AS Names, '30055' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'cdfd661e' AS Identifier, 'TR McKibbin' AS UniqueName, 'Tom McKibbin' AS Names, '6579' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '185e37e0' AS Identifier, 'T Rodriguez' AS UniqueName, '' AS Names, '1196248' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'TRO Payne' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '52672' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '4e291899' AS Identifier, 'TRO Payne' AS UniqueName, 'Thelston Payne' AS Names, '52672' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5470418a' AS Identifier, 'T Rossi' AS UniqueName, '' AS Names, '1287084' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '79f64f2c' AS Identifier, 'TR Owen' AS UniqueName, '' AS Names, '253985' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0aa42c26' AS Identifier, 'Troy Penman' AS UniqueName, '' AS Names, '1061905' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9759,7 +9789,7 @@ SELECT '4e1b4323' AS Identifier, 'TS Kamunhukamwe' AS UniqueName, 'T Kamunhukamw
 SELECT '245c97cb' AS Identifier, 'TS Mills' AS UniqueName, 'Tymal Mills, T Mills' AS Names, '459257' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '10b79140' AS Identifier, 'TS Muyeye' AS UniqueName, '' AS Names, '1260386' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e82dc4c5' AS Identifier, 'TS Nethula' AS UniqueName, 'Nethula' AS Names, '377639' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'TS Omary' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '1119585' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '88e90658' AS Identifier, 'TS Omary' AS UniqueName, '' AS Names, '1119585' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '1b04e02b' AS Identifier, 'TS Rogers' AS UniqueName, 'Tom Rogers' AS Names, '627627' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6c6aca89' AS Identifier, 'TS Roland-Jones' AS UniqueName, 'T Roland-Jones' AS Names, '370535' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6e28e586' AS Identifier, 'TS Sekhukhune' AS UniqueName, 'T Sekhukhune' AS Names, '939229' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9790,7 +9820,7 @@ SELECT '11196470' AS Identifier, 'TV Mufambisi' AS UniqueName, '' AS Names, '556
 SELECT '9585d793' AS Identifier, 'T Wakelin' AS UniqueName, '' AS Names, '1290209' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '37022a88' AS Identifier, 'T Walker' AS UniqueName, '' AS Names, '53284' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd200318b' AS Identifier, 'TW Allin' AS UniqueName, '' AS Names, '298155' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '3.9799E+53' AS Identifier, 'T Wangchuk' AS UniqueName, '' AS Names, '749527' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '39799e49' AS Identifier, 'T Wangchuk' AS UniqueName, '' AS Names, '749527' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b7eea5bf' AS Identifier, 'T Wang Ling' AS UniqueName, '' AS Names, '1116793' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fd463d00' AS Identifier, 'TW Cartwright' AS UniqueName, 'Tom Cartwright' AS Names, '10679' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ef39fc7f' AS Identifier, 'T Webster' AS UniqueName, '' AS Names, '1091078' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9846,7 +9876,7 @@ SELECT 'f81f6cf2' AS Identifier, 'Umair Rafi' AS UniqueName, '' AS Names, '11018
 SELECT '67ec2b09' AS Identifier, 'Umair Tariq' AS UniqueName, '' AS Names, '1263724' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5d77a96a' AS Identifier, 'Umar Adam' AS UniqueName, '' AS Names, '746439' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fd2bf2a0' AS Identifier, 'Umar Akmal' AS UniqueName, 'U Akmal' AS Names, '317273' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '3.029E+285' AS Identifier, 'Umar Amin' AS UniqueName, 'U Amin' AS Names, '288211' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '3029e282' AS Identifier, 'Umar Amin' AS UniqueName, 'U Amin' AS Names, '288211' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b06d72ab' AS Identifier, 'Umar Dar' AS UniqueName, '' AS Names, '299828' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8f400760' AS Identifier, 'Umar Farooq' AS UniqueName, '' AS Names, '1156626' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '16dfcc19' AS Identifier, 'Umar Gul' AS UniqueName, 'U Gul' AS Names, '43524' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -9997,7 +10027,7 @@ SELECT '2af28253' AS Identifier, 'Vraj Patel' AS UniqueName, '' AS Names, '11780
 SELECT '5b7b706f' AS Identifier, 'VR Angara' AS UniqueName, '' AS Names, '492713' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ee1909ea' AS Identifier, 'V Rathour' AS UniqueName, 'Vikram Rathour' AS Names, '33120' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '99dd1186' AS Identifier, 'V Razdan' AS UniqueName, 'Vivek Razdan' AS Names, '33151' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '6438097' AS Identifier, 'VR Brown' AS UniqueName, 'Vaughan Brown' AS Names, '36310' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '06438097' AS Identifier, 'VR Brown' AS UniqueName, 'Vaughan Brown' AS Names, '36310' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a24be938' AS Identifier, 'VR Iyer' AS UniqueName, '' AS Names, '851403' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2d963999' AS Identifier, 'VR Vanitha' AS UniqueName, 'V Vanitha' AS Names, '372242' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '034b4b7d' AS Identifier, 'VRV Singh' AS UniqueName, 'VR Singh, VP Singh' AS Names, '35281' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -10009,7 +10039,10 @@ SELECT '0994d0ae' AS Identifier, 'V Shankar' AS UniqueName, '' AS Names, '477021
 SELECT 'e05dd44b' AS Identifier, 'V Shaw' AS UniqueName, '' AS Names, '523444' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5e0b899d' AS Identifier, 'VS Hazare' AS UniqueName, 'Vijay Hazare' AS Names, '29290' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fd483a3e' AS Identifier, 'V Shetty' AS UniqueName, '' AS Names, '342182' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '0fdabe05' AS Identifier, 'V Sibanda' AS UniqueName, '' AS Names, '55787' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '0fdabe05' AS Identifier, 'V Sibanda' AS UniqueName, '' AS Names, '55787' AS CricInfoId, 1 AS IsActive
+Go
+
+INSERT INTO #playerRegister	([Identifier], [UniqueName], [Names], [CricInfoId], [IsActive])
 SELECT '5f26df4f' AS Identifier, 'VS Malik' AS UniqueName, 'V Malik' AS Names, '31738' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c4fb0b39' AS Identifier, 'VS Padhaal' AS UniqueName, '' AS Names, '1156464' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '0c3732bc' AS Identifier, 'VS Ransford' AS UniqueName, 'Vernon Ransford' AS Names, '7308' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -10101,7 +10134,7 @@ SELECT '4bb5dc96' AS Identifier, 'WA Tavare' AS UniqueName, '' AS Names, '298564
 SELECT '98eacfe5' AS Identifier, 'WAT Beer' AS UniqueName, 'W Beer' AS Names, '297626' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '46961ea6' AS Identifier, 'W Attewell' AS UniqueName, 'William Attewell' AS Names, '8588' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '6355d428' AS Identifier, 'WA White' AS UniqueName, '' AS Names, '219416' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Wayne Noon' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '18026' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '736e1761' AS Identifier, 'Wayne Noon' AS UniqueName, '' AS Names, '18026' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '8afe73e2' AS Identifier, 'WA Young' AS UniqueName, 'Will Young, W Young' AS Names, '547749' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ddd2afde' AS Identifier, 'Wazir Mohammad' AS UniqueName, '' AS Names, '43557' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'df0b356d' AS Identifier, 'W Banner' AS UniqueName, '' AS Names, '1159664' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -10294,8 +10327,8 @@ SELECT '7ed9fd56' AS Identifier, 'WU Tharanga' AS UniqueName, 'U Tharanga' AS Na
 SELECT '094942b3' AS Identifier, 'W van Vuuren' AS UniqueName, '' AS Names, '434317' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '63769bc7' AS Identifier, 'W van Wyk' AS UniqueName, '' AS Names, '595812' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a89730a9' AS Identifier, 'W Viraliliu' AS UniqueName, '' AS Names, '1082732' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'W Voce' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '22192' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '322222' AS Identifier, 'WV Raman' AS UniqueName, 'Woorkeri Raman' AS Names, '33058' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '5e233835' AS Identifier, 'W Voce' AS UniqueName, 'Bill Voce' AS Names, '22192' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '322222e0' AS Identifier, 'WV Raman' AS UniqueName, 'Woorkeri Raman' AS Names, '33058' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '74dc92df' AS Identifier, 'WV Rodriguez' AS UniqueName, 'Willie Rodriguez' AS Names, '52820' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '422fb99b' AS Identifier, 'WVS Ling' AS UniqueName, 'William Ling' AS Names, '45993' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'd7cb51a4' AS Identifier, 'WW Armstrong' AS UniqueName, 'Warwick Armstrong' AS Names, '3982' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -10307,7 +10340,7 @@ SELECT 'c0358371' AS Identifier, 'WW Hall' AS UniqueName, 'Wes Hall' AS Names, '
 SELECT '60beb01b' AS Identifier, 'WW Hinds' AS UniqueName, '' AS Names, '52057' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f5b0a238' AS Identifier, 'WW Keeton' AS UniqueName, 'Walter Keeton' AS Names, '15841' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '2cd88860' AS Identifier, 'WW Read' AS UniqueName, 'Walter Read' AS Names, '19352' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '3.356E+43' AS Identifier, 'WW Wade' AS UniqueName, 'Billy Wade' AS Names, '47855' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '03356e40' AS Identifier, 'WW Wade' AS UniqueName, 'Billy Wade' AS Names, '47855' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b6ac18a3' AS Identifier, 'WW Whysall' AS UniqueName, 'Dodger Whysall' AS Names, '22420' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e5ee7c83' AS Identifier, 'XA Crone' AS UniqueName, '' AS Names, '1062338' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '57a49987' AS Identifier, 'XA Jetly' AS UniqueName, 'Jetly' AS Names, '1175115' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -10419,13 +10452,13 @@ SELECT '1fa08c73' AS Identifier, 'Zahir Shehzad' AS UniqueName, '' AS Names, '63
 SELECT 'd2b4983e' AS Identifier, 'Zahoor Elahi' AS UniqueName, '' AS Names, '43701' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'f0e293b0' AS Identifier, 'Zahoor Khan' AS UniqueName, '' AS Names, '384525' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a29dd0ec' AS Identifier, 'Zaidan Taha' AS UniqueName, '' AS Names, '879677' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Zaigham Mansoor' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '43829' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '7019e646' AS Identifier, 'Zaigham Mansoor' AS UniqueName, '' AS Names, '43829' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b3b4dc7d' AS Identifier, 'Zain Abbas' AS UniqueName, '' AS Names, '291088' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'b93b87ae' AS Identifier, 'Zain Ul Abidin' AS UniqueName, '' AS Names, '1284541' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'e3e09091' AS Identifier, 'Zakir Hasan' AS UniqueName, 'Z Hasan' AS Names, '697059' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '51aff1d4' AS Identifier, 'Zakir Khan' AS UniqueName, '' AS Names, '43703' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '76a582b8' AS Identifier, 'Zakiullah Zaki' AS UniqueName, '' AS Names, '307657' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '2839200000000000' AS Identifier, 'Zaman Khan' AS UniqueName, '' AS Names, '1272475' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '28392e11' AS Identifier, 'Zaman Khan' AS UniqueName, '' AS Names, '1272475' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5537565f' AS Identifier, 'Zameer Haider' AS UniqueName, '' AS Names, '43884' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'fb0d3749' AS Identifier, 'Zameer Khan' AS UniqueName, '' AS Names, '414806' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '21d46f15' AS Identifier, 'Zamir Khan' AS UniqueName, '' AS Names, '542323' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -10446,7 +10479,7 @@ SELECT '3402a7cf' AS Identifier, 'Zeeshan Butt' AS UniqueName, '' AS Names, '128
 SELECT '72ae14d0' AS Identifier, 'Zeeshan Goraya' AS UniqueName, '' AS Names, '1101945' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '3f9b1a96' AS Identifier, 'Zeeshan Khan' AS UniqueName, '' AS Names, '1233046' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '5d6a1f76' AS Identifier, 'Zeeshan Kukikhel' AS UniqueName, '' AS Names, '1204124' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '7' AS Identifier, 'Zeeshan Malik' AS UniqueName, 'A Rahane, A Patel, Blair Pocock, Bransby Cooper, Barry Wood, Archie Wiles, CT Valente, Cameron Valente, Dwight Washington, Gary Crocker, IMG Liyanage, Jeff Crowe, K Chohan, Monty Noble, J Leach, N Farrar, Neil Johnson, Roy Harford, Ron Oxenham, R Hira, Hira, Rod Marsh, Sophie Molineux, SG Molineux, T Paine, Thelston Payne, Bill Voce, Z Malik' AS Names, '793413' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '6e140182' AS Identifier, 'Zeeshan Malik' AS UniqueName, 'Z Malik' AS Names, '793413' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '34464143' AS Identifier, 'Zeeshan Maqsood' AS UniqueName, 'Z Maqsood' AS Names, '585083' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'ac2f2410' AS Identifier, 'Zeeshan Sarwar' AS UniqueName, '' AS Names, '1281556' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a91392b4' AS Identifier, 'Zeeshan Siddiqi' AS UniqueName, '' AS Names, '43751' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -10475,7 +10508,7 @@ SELECT '68f500c8' AS Identifier, 'Z Hoque' AS UniqueName, 'Ziaul Hoque' AS Names
 SELECT 'ba3e9054' AS Identifier, 'Zhou Haijie' AS UniqueName, '' AS Names, '486835' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '4c9c9f87' AS Identifier, 'ZH Saidi' AS UniqueName, '' AS Names, '271881' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'a03ee6e1' AS Identifier, 'Zhuang Zelin' AS UniqueName, '' AS Names, '1093651' AS CricInfoId, 1 AS IsActive UNION ALL
-SELECT '42457000000000000' AS Identifier, 'Ziauddin Burney' AS UniqueName, '' AS Names, '43845' AS CricInfoId, 1 AS IsActive UNION ALL
+SELECT '42457e12' AS Identifier, 'Ziauddin Burney' AS UniqueName, '' AS Names, '43845' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '99c81226' AS Identifier, 'Zia-ul-Haq' AS UniqueName, 'Zia Ul Haq' AS Names, '290739' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT '794e4ada' AS Identifier, 'Ziaul Islam' AS UniqueName, '' AS Names, '56174' AS CricInfoId, 1 AS IsActive UNION ALL
 SELECT 'c27518d2' AS Identifier, 'Ziaur Rahman' AS UniqueName, 'Z Rahman' AS Names, '56167' AS CricInfoId, 1 AS IsActive UNION ALL
@@ -10537,6 +10570,7 @@ BEGIN TRY
                         , SOURCE.Names
                         , SOURCE.CricInfoId
                         , SOURCE.IsActive);
+
 
   COMMIT TRANSACTION
 PRINT 'MERGE dbo.playerRegister - Done'
