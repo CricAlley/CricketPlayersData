@@ -1,0 +1,18 @@
+﻿BEGIN TRY
+BEGIN TRANSACTION
+
+    MERGE Players AS TARGET
+    USING PlayerRegister AS SOURCE
+    ON TARGET.CricInfoId = SOURCE.CricInfoId
+    WHEN MATCHED 
+        THEN 
+        UPDATE
+        SET TARGET.Identifier = SOURCE.Identifier;
+
+  COMMIT TRANSACTION
+PRINT 'MERGE dbo.PopulateIdentifier - Done'
+END TRY
+BEGIN CATCH
+      ROLLBACK TRANSACTION;
+      THROW
+END CATCH
