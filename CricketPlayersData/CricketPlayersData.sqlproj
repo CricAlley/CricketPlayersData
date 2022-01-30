@@ -68,6 +68,7 @@
     <None Include="deploy cricket match staging.txt" />
     <None Include="deploy elastic ingestor.txt" />
     <None Include="CricInfoIdScript.sql" />
+    <None Include="PopulateIdentifier.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="CricketPlayerData.PostDeployment.sql" />
